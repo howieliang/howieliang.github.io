@@ -1,10 +1,18 @@
-## Welcome to GitHub Pages
+## Rong-Hao Liang
 
-You can use the [editor on GitHub](https://github.com/howieliang/howieliang.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Rong-Hao Liang is assistant professor in Department of Industrial Design and Department of Electrical Engineering, Eindhoven University of Technology, the Netherlands. Rong-Hao received his Ph.D. in Computer Science (2014) from National Taiwan University, M.S. in Electrical Engineering (2010) from National Taiwan University, B.S. in Computer Science (2014) from Chang Gung University. He found a company, GaussToys Inc., in Taiwan (2015). From Dec. 2014 until Sep. 2016 he was an assistant research fellow in Intel-NTU Research Center of Connected Context Computing, National Taiwan University. He has served as a member of ACM DIS, ACM UIST, ACM EICS and DeSForM conference program committees. He also served as a member of ACM CHI, ACM UIST and ACM TEI conference program committees. His research focus on Technical Human-Computer Interaction in innovative and intelligent sensing, ubiquitous computing, and rapid prototyping. Until 2020 he has more than 50 technical research publications and held several user interface hardware patents.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Experiences
 
-### Markdown
+- Assistant Professor (Oct. 2016 – now)
+  - Department of Industrial Design, Eindhoven University of Technology, The Netherlands
+  - Department of Electrical Engineering, Eindhoven University of Technology, The Netherlands 
+- Co-Founder (Mar. 2015 – now)
+  - GaussToys Inc., Taiwan
+- Assistant Research Fellow Dec. 2014 – Sep. 2016
+  - Intel-NTU Connected Context Computing Center, National Taiwan University, Taiwan
+- Research Assistant 	Apr. 2010 – Dec. 2014
+  - Institute of Information Science, Academia Sinica, Taiwan
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
