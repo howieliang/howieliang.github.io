@@ -1,8 +1,12 @@
 # Rong-Hao Liang
 
-'Assistant professor'
-''Department of Industrial Design, Eindhoven University of Technology, the Netherlands''
-''Department of Electrical Engineering, Eindhoven University of Technology, the Netherlands''
+**Assistant professor**
+
+_Department of Industrial Design, Eindhoven University of Technology, the Netherlands_
+
+_Department of Electrical Engineering, Eindhoven University of Technology, the Netherlands_
+
+[r.liang@tue.nl](r.liang@tue.nl)
 
 Rong-Hao received his Ph.D. in Computer Science and M.S. in Electrical Engineering from National Taiwan University. He found GaussToys Inc. His research focus on Technical Human-Computer Interaction in innovative and intelligent sensing, ubiquitous computing, and rapid prototyping. Until 2020 he has more than 50 technical research publications and held several user interface hardware patents.
 
@@ -96,33 +100,3 @@ EdgeVib: Effective Alphanumeric Output Using a Wrist-Worn Tactile Display. In Pr
   - Intel-NTU Connected Context Computing Center, National Taiwan University, Taiwan
 - Research Assistant 	Apr. 2010 – Dec. 2014
   - Institute of Information Science, Academia Sinica, Taiwan
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/howieliang/howieliang.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
