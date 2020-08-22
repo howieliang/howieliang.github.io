@@ -15,11 +15,11 @@ URL: http://www.chris-creed.com
 #wrap { width: 800px; margin: 20px auto; font-family: Helvetica, serif; color: #000; border: 1px #eee solid; padding: 40px 50px 40px 50px; background: #aaa; background: -moz-linear-gradient(top, #EEEEEE 0%, #FFFFFF 2%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EEEEEE), color-stop(2%,#FFFFFF)); }
 body { font-family: times, serif; background-color: #eee; }
 h1 { font-weight:bold; font-size: 28px; margin: 10px 10px 10px 10px; color: #111; }
-h2 { font-weight:bold; font-size: 24px; margin: 10px 0 10px 0; color: #111;}
+h2 { font-weight:bold; font-size: 24px; margin: 10px 0px 10px 0px; color: #111;}
 h3 { font-weight:bold; font-size: 18px; margin: 10px 0px 10px 0px;}
 h4 { font-weight:bold; font-size: 14px; margin: 10px 0px 10px 0px;}
 h5 { font-weight:bold; font-size: 12px; margin: 10px 0px 10px 0px;}
-a { font-weight:bold; text-decoration: none; color: #111; margin: 0px 0px 0px 0px;}
+a { font-weight:bold; text-decoration: none; color: #111;}
 a:hover { font-weight:bold; text-decoration: underline; color: #0b8bbb; }
 .line { clear: both; border-bottom: 1px #eee solid; }
 .tline { clear: both; border-bottom: 1px #eee solid; }
@@ -33,9 +33,8 @@ p.title { font-size: 14px; font-weight:bold;}
 p.title2 { font-size: 14px; font-weight:bold;}
 p.proc { font-size: 12px;}
 p.award { font-size: 12px; color: #0b8bbb; font-weight:bold;}
-p.contact { font-size: 14px; margin: 5px 0 5px 0;}
 
-span { font-size: 14px; width: 50px; float: left; } 
+span { font-size: 12px; width: 50px; float: left; } 
 strong {font-weight:bold}
 em {font-style: italic}
 
@@ -44,7 +43,7 @@ ul{
 　　width:100%;
 }
 li{
-	font-size: 12px; margin: 0em 0px 0.5em 1em; width: 95%;
+	font-size: 12px; margin: 0em 0px 0.5em 0.5em; width: 95%;
 }
 img.thumb { width: 200px; border: 1px #ddd solid; }
 img.fig { width: 100%; border: 0px #ddd solid; margin: 0px 0px 5px 0px;}
