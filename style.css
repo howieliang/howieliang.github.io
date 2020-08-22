@@ -14,14 +14,12 @@ URL: http://www.chris-creed.com
 /* -------------------- */
 #wrap { width: 800px; margin: 20px auto; font-family: Helvetica, serif; color: #000; border: 1px #eee solid; padding: 40px 50px 40px 50px; background: #aaa; background: -moz-linear-gradient(top, #EEEEEE 0%, #FFFFFF 2%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EEEEEE), color-stop(2%,#FFFFFF)); }
 body { font-family: times, serif; background-color: #eee; }
-h1 { font-size: 28px; margin: 10px 10px 10px 10px; color: #111; }
-h2 { font-size: 24px; margin: 5px 0 5px 0; color: #111;}
-h3 { font-size: 18px; margin: 10px 0px 10px 0px;}
-h4 { font-size: 14px; margin: 10px 0px 10px 0px;}
-h5 { font-size: 12px; margin: 10px 0px 10px 0px;}
-/*h5 { font-size: 14px; margin: 2px 0 2px 5px;}*/
-/*p { font-size: 16px; line-height: 16px; margin: 0 0 0px 0; }*/
-a { text-decoration: none; color: #111; margin: 0px 0px 0px 0px;}
+h1 { font-weight:bold; font-size: 28px; margin: 10px 10px 10px 10px; color: #111; }
+h2 { font-weight:bold; font-size: 24px; margin: 10px 0 10px 0; color: #111;}
+h3 { font-weight:bold; font-size: 18px; margin: 10px 0px 10px 0px;}
+h4 { font-weight:bold; font-size: 14px; margin: 10px 0px 10px 0px;}
+h5 { font-weight:bold; font-size: 12px; margin: 10px 0px 10px 0px;}
+a { font-weight:bold; text-decoration: none; color: #111; margin: 0px 0px 0px 0px;}
 a:hover { font-weight:bold; text-decoration: underline; color: #0b8bbb; }
 .line { clear: both; border-bottom: 1px #eee solid; }
 .tline { clear: both; border-bottom: 1px #eee solid; }
@@ -30,22 +28,23 @@ p { font-size: 14px; margin: 2px 0 2px 0px; }
 p.info { font-size: 13px; margin: 10px 0px 10px 0px; text-align: justify;}
 p.hist { font-size: 12px; font-weight:bold;}
 p.author { font-size: 10px; }
+p.position { font-size: 12px; }
 p.title { font-size: 14px; font-weight:bold;}
-p.title2 { font-size: 12px; font-weight:bold;}
+p.title2 { font-size: 14px; font-weight:bold;}
 p.proc { font-size: 12px;}
-p.award { font-size: 11px; color: #0b8bbb; font-weight:bold;}
+p.award { font-size: 12px; color: #0b8bbb; font-weight:bold;}
 p.contact { font-size: 14px; margin: 5px 0 5px 0;}
 
-span { font-size: 14px; width: 40px; float: left; } 
-b {font: bold;}
-i {font: italic}
+span { font-size: 14px; width: 50px; float: left; } 
+strong {font-weight:bold}
+em {font-style: italic}
 
 ul{
-　　list-style-type:disc;
+　　list-style-type: disc;
 　　width:100%;
 }
 li{
-	font-size: 14px; margin: 5px 0px 10px 10px;width: 90%;
+	font-size: 12px; margin: 0em 0px 0.5em 1em; width: 95%;
 }
 img.thumb { width: 200px; border: 1px #ddd solid; }
 img.fig { width: 100%; border: 0px #ddd solid; margin: 0px 0px 5px 0px;}
@@ -69,9 +68,9 @@ img.fig { width: 100%; border: 0px #ddd solid; margin: 0px 0px 5px 0px;}
 /* ------------- */
 #content .cv-section { width: 800px; margin: 0 0 0 0; }
 #content .cv-halfsection { width: 380px; margin: 0 20px 0 0px; }
-#content .cv-section h3 { font-size: 18px; color: #000; margin: 5px 0 0px 0;  }
-#content .cv-section h3.title { font-size: 16px; color: #000; margin: 5px 0 5px 0; }
-#content .cv-section h4.title { font-size: 14px; color: #000; margin: 5px 0 0px 0; }
+#content .cv-section h3 { font-size: 18px; color: #000; margin: 1em 0 1em 0;  }
+#content .cv-section h3.title { font-size: 16px; color: #000; margin: 1em 0 1em 0; }
+#content .cv-section h4.title { font-size: 14px; color: #000; margin: 1em 0 1em 0; }
 #content .cv-section h4.meta { font-size: 14px; color: #777; }
 
 #content .cv-section-item { padding: 2px 0 2px 0; }
