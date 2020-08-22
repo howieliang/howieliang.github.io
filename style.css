@@ -21,6 +21,8 @@ h4 { font-weight:bold; font-size: 14px; margin: 10px 0px 10px 0px;}
 h5 { font-weight:bold; font-size: 12px; margin: 10px 0px 10px 0px;}
 a { font-weight:bold; text-decoration: none; color: #111;}
 a:hover { font-weight:bold; text-decoration: underline; color: #0b8bbb; }
+a.title { font-size: 14px; font-weight:bold; text-decoration: none; color: #111;}
+a.title:hover { font-size: 14px; font-weight:bold; text-decoration: underline; color: #0b8bbb;}
 .line { clear: both; border-bottom: 1px #eee solid; }
 .tline { clear: both; border-bottom: 1px #eee solid; }
 
@@ -35,6 +37,7 @@ p.proc { font-size: 12px;}
 p.award { font-size: 12px; color: #0b8bbb; font-weight:bold;}
 
 span { font-size: 12px; width: 50px; float: left; } 
+span2 { font-size: 12px; width: 100px; float: left; } 
 strong {font-weight:bold}
 em {font-style: italic}
 
