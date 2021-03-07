@@ -1,46 +1,45 @@
 
-___ACM DIS '20: ACM Designing Interactive Systems Conference 2020___
+___ACM UIST 2018: ACM User Interface Software and Technology Symposium___
 
-# FabriClick: Interweaving Pushbuttons into Fabrics Using 3D Printing and Digital Embroidery
-__Maas Goudswaard<sup>1</sup>, Abel Abraham<sup>1,2</sup>, Bruna Goveia da Rocha<sup>1</sup>, Kristina Andersen<sup>1</sup>, Rong-Hao Liang<sup>1</sup>__
+# RFIMatch: Distributed Batteryless Near-Field Identification Using RFID-Tagged Magnet-Biased Reed Switches
+__Rong-Hao Liang<sup>1</sup>, Meng-Ju Hsieh<sup>2</sup>, Jheng-You Ke<sup>1</sup>, Jr-Ling Guo<sup>1</sup>, Bing-Yu Chen<sup>1</sup>
 
-_TU Eindhoven<sup>1</sup>, Simon Fraser University<sup>2</sup>_
+_TU Eindhoven<sup>1</sup>, National Taiwan University<sup>2</sup>_
 
- __\[DIS '20 Best Paper Honorable Mention\]__
 
-[ACM Digital Library](https://dl.acm.org/doi/10.1145/3357236.3395569)
+[ACM Digital Library](https://dl.acm.org/doi/10.1145/3242587.3242620)
 
 ## Video
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/i_8izQPGhFE/0.jpg)](https://www.youtube.com/watch?v=i_8izQPGhFE)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/pGDKklVWaNA/0.jpg)](https://www.youtube.com/watch?v=pGDKklVWaNA)
 
 ## Abstract
-Mechanical pushbuttons, which provide physical landmarks and clear tactile feedback, are easily accessible and highly reliable in eyes-free use. Potentially, their merits can improve the experiences of on-body or wearable HCI. However, they are not commonly adopted as a user interface of smart textiles because the physical mechanism of conventional pushbutton hardware requires further integration, which should be seamless enough to be comfortably worn. In this pictorial, we present a design exploration of the methodologies for interweaving mechanical pushbuttons into fabrics. The exploration used a frame system, which unifies the workflow of digital embroidery and 3D printing and enables the exploration of the physical design. Through the process, we investigated methods of integration and fabrication through making and presented our findings with proof-of-concept implementations. We also discussed the alternative designs and interaction methods as well as their implications to enlighten future research directions and opportunities.
+This paper presents a technique enabling distributed batteryless near-field identification (ID) between two passive radio frequency ID (RFID) tags. Each conventional ultra-high-frequency (UHF) RFID tag is modified by connecting its antenna and chip to a reed switch and then attaching a magnet to one of the reed switch's terminals, thus transforming it into an always-on switch. When the two modules approach each other, the magnets counteract each other and turn off both switches at the same time. The coabsence of IDs thus indicates a unique interaction event. In addition to sensing, the module also provides native haptic feedback through magnetic repulsion force, enabling users to perceive the system's state eyes-free, without physical constraints. Additional visual feedback can be provided through an energy-harvesting module and a light emitting diode. This specific hardware design supports contactless, orientation-invariant sensing, with a form factor compact enough for embedded and wearable use in ubiquitous computing applications.
 
 ## Keywords
-Fabrication; Pushbuttons; Embroidery; 3D Printing; Wearables
+near-field identification, reed switch, wearables, rfid, batteryless, magnet
 
 ## Cite this work (ACM)
 ```
-Maas Goudswaard, Abel Abraham, Bruna Goveia da Rocha, Kristina Andersen, and Rong-Hao Liang. 2020. FabriClick: Interweaving Pushbuttons into Fabrics Using 3D Printing and Digital Embroidery. In Proceedings of the 2020 ACM Designing Interactive Systems Conference (DIS '20). Association for Computing Machinery, New York, NY, USA, 379–393. DOI:https://doi.org/10.1145/3357236.3395569
+Rong-Hao Liang, Meng-Ju Hsieh, Jheng-You Ke, Jr-Ling Guo, and Bing-Yu Chen. 2018. RFIMatch: Distributed Batteryless Near-Field Identification Using RFID-Tagged Magnet-Biased Reed Switches. In <i>Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology</i> (<i>UIST '18</i>). Association for Computing Machinery, New York, NY, USA, 473–483. DOI:https://doi.org/10.1145/3242587.3242620
 ```
 
 ## Cite this work (Bibtex)
 ```
-@inproceedings{10.1145/3357236.3395569,
-author = {Goudswaard, Maas and Abraham, Abel and Goveia da Rocha, Bruna and Andersen, Kristina and Liang, Rong-Hao},
-title = {FabriClick: Interweaving Pushbuttons into Fabrics Using 3D Printing and Digital Embroidery},
-year = {2020},
-isbn = {9781450369749},
+@inproceedings{10.1145/3242587.3242620,
+author = {Liang, Rong-Hao and Hsieh, Meng-Ju and Ke, Jheng-You and Guo, Jr-Ling and Chen, Bing-Yu},
+title = {RFIMatch: Distributed Batteryless Near-Field Identification Using RFID-Tagged Magnet-Biased Reed Switches},
+year = {2018},
+isbn = {9781450359481},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3357236.3395569},
-doi = {10.1145/3357236.3395569},
-abstract = {Mechanical pushbuttons, which provide physical landmarks and clear tactile feedback, are easily accessible and highly reliable in eyes-free use. Potentially, their merits can improve the experiences of on-body or wearable HCI. However, they are not commonly adopted as a user interface of smart textiles because the physical mechanism of conventional pushbutton hardware requires further integration, which should be seamless enough to be comfortably worn. In this pictorial, we present a design exploration of the methodologies for interweaving mechanical pushbuttons into fabrics. The exploration used a frame system, which unifies the workflow of digital embroidery and 3D printing and enables the exploration of the physical design. Through the process, we investigated methods of integration and fabrication through making and presented our findings with proof-of-concept implementations. We also discussed the alternative designs and interaction methods as well as their implications to enlighten future research directions and opportunities.},
-booktitle = {Proceedings of the 2020 ACM Designing Interactive Systems Conference},
-pages = {379–393},
-numpages = {15},
-keywords = {wearables, 3d printing, fabrication, embroidery, pushbuttons},
-location = {Eindhoven, Netherlands},
-series = {DIS '20}
+url = {https://doi.org/10.1145/3242587.3242620},
+doi = {10.1145/3242587.3242620},
+abstract = {This paper presents a technique enabling distributed batteryless near-field identification (ID) between two passive radio frequency ID (RFID) tags. Each conventional ultra-high-frequency (UHF) RFID tag is modified by connecting its antenna and chip to a reed switch and then attaching a magnet to one of the reed switch's terminals, thus transforming it into an always-on switch. When the two modules approach each other, the magnets counteract each other and turn off both switches at the same time. The coabsence of IDs thus indicates a unique interaction event. In addition to sensing, the module also provides native haptic feedback through magnetic repulsion force, enabling users to perceive the system's state eyes-free, without physical constraints. Additional visual feedback can be provided through an energy-harvesting module and a light emitting diode. This specific hardware design supports contactless, orientation-invariant sensing, with a form factor compact enough for embedded and wearable use in ubiquitous computing applications.},
+booktitle = {Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology},
+pages = {473–483},
+numpages = {11},
+keywords = {near-field identification, reed switch, wearables, rfid, batteryless, magnet},
+location = {Berlin, Germany},
+series = {UIST '18}
 }
 ```
