@@ -1,6 +1,6 @@
 ___ACM MobileHCI 2015: International Conference on Human-Computer Interaction with Mobile Devices and Services___
 
-# DigitSpace: Designing Thumb-to-Fingers Touch Interfaces for One-handed and Eyes-free Interactions
+# LEaD: Utilizing Light Movement as Peripheral Visual Guidance for Scooter Navigation
 __Hung-Yu Tseng, Rong-Hao Liang, Liwei Chan, Bing-Yu Chen__
 
 _National Taiwan University_
