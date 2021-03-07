@@ -2,7 +2,7 @@
 ___ACM UIST 2018: ACM User Interface Software and Technology Symposium___
 
 # RFIMatch: Distributed Batteryless Near-Field Identification Using RFID-Tagged Magnet-Biased Reed Switches
-__Rong-Hao Liang<sup>1</sup>, Meng-Ju Hsieh<sup>2</sup>, Jheng-You Ke<sup>1</sup>, Jr-Ling Guo<sup>1</sup>, Bing-Yu Chen<sup>1</sup>
+__Rong-Hao Liang<sup>1</sup>, Meng-Ju Hsieh<sup>2</sup>, Jheng-You Ke<sup>1</sup>, Jr-Ling Guo<sup>1</sup>, Bing-Yu Chen<sup>1</sup>__
 
 _TU Eindhoven<sup>1</sup>, National Taiwan University<sup>2</sup>_
 

@@ -2,8 +2,7 @@
 ___ACM CHI 2018: ACM SIGCHI Conference on Human Factors in Computing Systems___
 
 # RFIBricks: Interactive Building Blocks Based on RFID
-__
-Meng-Ju Hsieh<sup>1</sup>, Rong-Hao Liang<sup>2</sup>, Da-Yuan Huang<sup>3</sup>, Jheng-You Ke<sup>1</sup>, Bing-Yu Chen<sup>1</sup>
+__Meng-Ju Hsieh<sup>1</sup>, Rong-Hao Liang<sup>2</sup>, Da-Yuan Huang<sup>3</sup>, Jheng-You Ke<sup>1</sup>, Bing-Yu Chen<sup>1</sup>__
 
 _National Taiwan University<sup>1</sup>, TU Eindhoven<sup>2</sup>, National Taiwan University of Science and Technology<sup>1</sup>_
 

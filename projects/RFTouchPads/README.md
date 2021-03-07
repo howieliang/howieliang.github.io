@@ -1,46 +1,45 @@
 
-___ACM DIS '20: ACM Designing Interactive Systems Conference 2020___
+___ACM UIST 2019: ACM User Interface Software and Technology Symposium___
 
-# FabriClick: Interweaving Pushbuttons into Fabrics Using 3D Printing and Digital Embroidery
-__Maas Goudswaard<sup>1</sup>, Abel Abraham<sup>1,2</sup>, Bruna Goveia da Rocha<sup>1</sup>, Kristina Andersen<sup>1</sup>, Rong-Hao Liang<sup>1</sup>__
+# RFTouchPads: Batteryless and Wireless Modular Touch Sensor Pads Based on RFID
+__Meng-Ju Hsieh<sup>1</sup>, Jr-Ling Guo<sup>1</sup>, Chin-Yuan Lu<sup>1</sup>, Han-Wei Hsieh<sup>1</sup>, Rong-Hao Liang<sup>2</sup>, Bing-Yu Chen<sup>1</sup>__
 
-_TU Eindhoven<sup>1</sup>, Simon Fraser University<sup>2</sup>_
+_National Taiwan University<sup>1</sup>, TU Eindhoven<sup>2</sup>_
 
- __\[DIS '20 Best Paper Honorable Mention\]__
-
-[ACM Digital Library](https://dl.acm.org/doi/10.1145/3357236.3395569)
+[ACM Digital Library](https://dl.acm.org/doi/abs/10.1145/3332165.3347910)
 
 ## Video
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/i_8izQPGhFE/0.jpg)](https://www.youtube.com/watch?v=i_8izQPGhFE)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/jVh7w2LBYKY/0.jpg)](https://www.youtube.com/watch?v=jVh7w2LBYKY)
 
 ## Abstract
-Mechanical pushbuttons, which provide physical landmarks and clear tactile feedback, are easily accessible and highly reliable in eyes-free use. Potentially, their merits can improve the experiences of on-body or wearable HCI. However, they are not commonly adopted as a user interface of smart textiles because the physical mechanism of conventional pushbutton hardware requires further integration, which should be seamless enough to be comfortably worn. In this pictorial, we present a design exploration of the methodologies for interweaving mechanical pushbuttons into fabrics. The exploration used a frame system, which unifies the workflow of digital embroidery and 3D printing and enables the exploration of the physical design. Through the process, we investigated methods of integration and fabrication through making and presented our findings with proof-of-concept implementations. We also discussed the alternative designs and interaction methods as well as their implications to enlighten future research directions and opportunities.
+This paper presents RFTouchPads, a system of batteryless and wireless modular hardware designs of two-dimensional (2D) touch sensor pads based on the ultra-high frequency (UHF) radio-frequency identification (RFID) technology. In this system, multiple RFID IC chips are connected to an antenna in parallel. Each chip connects only one of its endpoints to the antenna; hence, the module normally turns off when it gets insufficient energy to operate. When a finger touches the circuit trace attached to another endpoint of the chip, the finger functions as part of the antenna that turns the connected chip on, while the finger touch location is determined according to the chip's ID. Based on this principle, we propose two hardware designs, namely, StickerPad and TilePad. StickerPad is a flexible 3×3 touch-sensing pad suitable for applications on curved surfaces such as the human body. TilePad is a modular 3×3 touch-sensing pad that supports the modular area expansion by tiling and provides a more flexible deployment because its antenna is folded. Our implementation allows 2D touch inputs to be reliability detected 2 m away from a remote antenna of an RFID reader. The proposed batteryless, wireless, and modular hardware design enables fine-grained and less-constrained 2D touch inputs in various ubiquitous computing applications.
 
 ## Keywords
-Fabrication; Pushbuttons; Embroidery; 3D Printing; Wearables
+modular sensing, batteryless, sensors, wireless sensing, touch inputs, rfid
 
 ## Cite this work (ACM)
 ```
-Maas Goudswaard, Abel Abraham, Bruna Goveia da Rocha, Kristina Andersen, and Rong-Hao Liang. 2020. FabriClick: Interweaving Pushbuttons into Fabrics Using 3D Printing and Digital Embroidery. In Proceedings of the 2020 ACM Designing Interactive Systems Conference (DIS '20). Association for Computing Machinery, New York, NY, USA, 379–393. DOI:https://doi.org/10.1145/3357236.3395569
+Meng-Ju Hsieh, Jr-Ling Guo, Chin-Yuan Lu, Han-Wei Hsieh, Rong-Hao Liang, and Bing-Yu Chen. 2019. RFTouchPads: Batteryless and Wireless Modular Touch Sensor Pads Based on RFID. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (UIST '19). Association for Computing Machinery, New York, NY, USA, 999–1011. DOI:https://doi.org/10.1145/3332165.3347910
+
 ```
 
 ## Cite this work (Bibtex)
 ```
-@inproceedings{10.1145/3357236.3395569,
-author = {Goudswaard, Maas and Abraham, Abel and Goveia da Rocha, Bruna and Andersen, Kristina and Liang, Rong-Hao},
-title = {FabriClick: Interweaving Pushbuttons into Fabrics Using 3D Printing and Digital Embroidery},
-year = {2020},
-isbn = {9781450369749},
+@inproceedings{10.1145/3332165.3347910,
+author = {Hsieh, Meng-Ju and Guo, Jr-Ling and Lu, Chin-Yuan and Hsieh, Han-Wei and Liang, Rong-Hao and Chen, Bing-Yu},
+title = {RFTouchPads: Batteryless and Wireless Modular Touch Sensor Pads Based on RFID},
+year = {2019},
+isbn = {9781450368162},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3357236.3395569},
-doi = {10.1145/3357236.3395569},
-abstract = {Mechanical pushbuttons, which provide physical landmarks and clear tactile feedback, are easily accessible and highly reliable in eyes-free use. Potentially, their merits can improve the experiences of on-body or wearable HCI. However, they are not commonly adopted as a user interface of smart textiles because the physical mechanism of conventional pushbutton hardware requires further integration, which should be seamless enough to be comfortably worn. In this pictorial, we present a design exploration of the methodologies for interweaving mechanical pushbuttons into fabrics. The exploration used a frame system, which unifies the workflow of digital embroidery and 3D printing and enables the exploration of the physical design. Through the process, we investigated methods of integration and fabrication through making and presented our findings with proof-of-concept implementations. We also discussed the alternative designs and interaction methods as well as their implications to enlighten future research directions and opportunities.},
-booktitle = {Proceedings of the 2020 ACM Designing Interactive Systems Conference},
-pages = {379–393},
-numpages = {15},
-keywords = {wearables, 3d printing, fabrication, embroidery, pushbuttons},
-location = {Eindhoven, Netherlands},
-series = {DIS '20}
+url = {https://doi.org/10.1145/3332165.3347910},
+doi = {10.1145/3332165.3347910},
+abstract = {This paper presents RFTouchPads, a system of batteryless and wireless modular hardware designs of two-dimensional (2D) touch sensor pads based on the ultra-high frequency (UHF) radio-frequency identification (RFID) technology. In this system, multiple RFID IC chips are connected to an antenna in parallel. Each chip connects only one of its endpoints to the antenna; hence, the module normally turns off when it gets insufficient energy to operate. When a finger touches the circuit trace attached to another endpoint of the chip, the finger functions as part of the antenna that turns the connected chip on, while the finger touch location is determined according to the chip's ID. Based on this principle, we propose two hardware designs, namely, StickerPad and TilePad. StickerPad is a flexible 3\texttimes{}3 touch-sensing pad suitable for applications on curved surfaces such as the human body. TilePad is a modular 3\texttimes{}3 touch-sensing pad that supports the modular area expansion by tiling and provides a more flexible deployment because its antenna is folded. Our implementation allows 2D touch inputs to be reliability detected 2 m away from a remote antenna of an RFID reader. The proposed batteryless, wireless, and modular hardware design enables fine-grained and less-constrained 2D touch inputs in various ubiquitous computing applications.},
+booktitle = {Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology},
+pages = {999–1011},
+numpages = {13},
+keywords = {modular sensing, batteryless, sensors, wireless sensing, touch inputs, rfid},
+location = {New Orleans, LA, USA},
+series = {UIST '19}
 }
 ```
