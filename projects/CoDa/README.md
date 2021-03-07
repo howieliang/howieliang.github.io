@@ -1,46 +1,44 @@
 
-___ACM DIS '20: ACM Designing Interactive Systems Conference 2020___
+___ACM TEI '20: ACM Designing Interactive Systems Conference 2020___
 
-# FabriClick: Interweaving Pushbuttons into Fabrics Using 3D Printing and Digital Embroidery
-__Maas Goudswaard<sup>1</sup>, Abel Abraham<sup>1,2</sup>, Bruna Goveia da Rocha<sup>1</sup>, Kristina Andersen<sup>1</sup>, Rong-Hao Liang<sup>1</sup>__
+# CoDa: Collaborative Data Interpretation Through an Interactive Tangible Scatterplot
+__Annemiek Veldhuis, Rong-Hao Liang, Tilde Bekker__
 
-_TU Eindhoven<sup>1</sup>, Simon Fraser University<sup>2</sup>_
+_TU Eindhoven_
 
- __\[DIS '20 Best Paper Honorable Mention\]__
-
-[ACM Digital Library](https://dl.acm.org/doi/10.1145/3357236.3395569)
+[ACM Digital Library](https://dl.acm.org/doi/abs/10.1145/3374920.3374934)
 
 ## Video
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/i_8izQPGhFE/0.jpg)](https://www.youtube.com/watch?v=i_8izQPGhFE)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/0PKsX-YjLng/0.jpg)](https://www.youtube.com/watch?v=0PKsX-YjLng)
 
 ## Abstract
-Mechanical pushbuttons, which provide physical landmarks and clear tactile feedback, are easily accessible and highly reliable in eyes-free use. Potentially, their merits can improve the experiences of on-body or wearable HCI. However, they are not commonly adopted as a user interface of smart textiles because the physical mechanism of conventional pushbutton hardware requires further integration, which should be seamless enough to be comfortably worn. In this pictorial, we present a design exploration of the methodologies for interweaving mechanical pushbuttons into fabrics. The exploration used a frame system, which unifies the workflow of digital embroidery and 3D printing and enables the exploration of the physical design. Through the process, we investigated methods of integration and fabrication through making and presented our findings with proof-of-concept implementations. We also discussed the alternative designs and interaction methods as well as their implications to enlighten future research directions and opportunities.
+Tangibles can model abstract structures. One educational subject where this can be utilized is instruction on data visualization inter- pretation. Data physicalizations, tangible representations of data, offer graspable handles for the users to manipulate data visualiza- tions directly so that they can better understand what information they hold. However, investigations on the applicability of interac- tive data physicalizations in educational settings are still sparse. In this paper, we explore how students reason with an interactive tangible scatterplot through a collaborative data interpretation tool, CoDa. We report the design, development, and the user experiences in an exploratory study where 11 students, in groups of 2 to 4, completed a data analysis task with CoDa. The qualitative results show insights in the process of data interpretation, how interaction with the tangibles influenced these data interpretations, how the system aided collaboration and, overall user experience. We believe the results and implications offer a step towards nurturing future educational applications on interactive data physicalizations.
 
 ## Keywords
-Fabrication; Pushbuttons; Embroidery; 3D Printing; Wearables
+Data physicalization, Education, Collaborative analysis, InfoVis.
 
 ## Cite this work (ACM)
 ```
-Maas Goudswaard, Abel Abraham, Bruna Goveia da Rocha, Kristina Andersen, and Rong-Hao Liang. 2020. FabriClick: Interweaving Pushbuttons into Fabrics Using 3D Printing and Digital Embroidery. In Proceedings of the 2020 ACM Designing Interactive Systems Conference (DIS '20). Association for Computing Machinery, New York, NY, USA, 379–393. DOI:https://doi.org/10.1145/3357236.3395569
+Annemiek Veldhuis, Rong-Hao Liang, and Tilde Bekker. 2020. CoDa: Collaborative Data Interpretation Through an Interactive Tangible Scatterplot. In <i>Proceedings of the Fourteenth International Conference on Tangible, Embedded, and Embodied Interaction</i> (<i>TEI '20</i>). Association for Computing Machinery, New York, NY, USA, 323–336. DOI:https://doi.org/10.1145/3374920.3374934
 ```
 
 ## Cite this work (Bibtex)
 ```
-@inproceedings{10.1145/3357236.3395569,
-author = {Goudswaard, Maas and Abraham, Abel and Goveia da Rocha, Bruna and Andersen, Kristina and Liang, Rong-Hao},
-title = {FabriClick: Interweaving Pushbuttons into Fabrics Using 3D Printing and Digital Embroidery},
+@inproceedings{10.1145/3374920.3374934,
+author = {Veldhuis, Annemiek and Liang, Rong-Hao and Bekker, Tilde},
+title = {CoDa: Collaborative Data Interpretation Through an Interactive Tangible Scatterplot},
 year = {2020},
-isbn = {9781450369749},
+isbn = {9781450361071},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3357236.3395569},
-doi = {10.1145/3357236.3395569},
-abstract = {Mechanical pushbuttons, which provide physical landmarks and clear tactile feedback, are easily accessible and highly reliable in eyes-free use. Potentially, their merits can improve the experiences of on-body or wearable HCI. However, they are not commonly adopted as a user interface of smart textiles because the physical mechanism of conventional pushbutton hardware requires further integration, which should be seamless enough to be comfortably worn. In this pictorial, we present a design exploration of the methodologies for interweaving mechanical pushbuttons into fabrics. The exploration used a frame system, which unifies the workflow of digital embroidery and 3D printing and enables the exploration of the physical design. Through the process, we investigated methods of integration and fabrication through making and presented our findings with proof-of-concept implementations. We also discussed the alternative designs and interaction methods as well as their implications to enlighten future research directions and opportunities.},
-booktitle = {Proceedings of the 2020 ACM Designing Interactive Systems Conference},
-pages = {379–393},
-numpages = {15},
-keywords = {wearables, 3d printing, fabrication, embroidery, pushbuttons},
-location = {Eindhoven, Netherlands},
-series = {DIS '20}
+url = {https://doi.org/10.1145/3374920.3374934},
+doi = {10.1145/3374920.3374934},
+abstract = {Tangibles can model abstract structures. One educational subject where this can be utilized is instruction on data visualization inter- pretation. Data physicalizations, tangible representations of data, offer graspable handles for the users to manipulate data visualiza- tions directly so that they can better understand what information they hold. However, investigations on the applicability of interac- tive data physicalizations in educational settings are still sparse. In this paper, we explore how students reason with an interactive tangible scatterplot through a collaborative data interpretation tool, CoDa. We report the design, development, and the user experiences in an exploratory study where 11 students, in groups of 2 to 4, completed a data analysis task with CoDa. The qualitative results show insights in the process of data interpretation, how interaction with the tangibles influenced these data interpretations, how the system aided collaboration and, overall user experience. We believe the results and implications offer a step towards nurturing future educational applications on interactive data physicalizations.},
+booktitle = {Proceedings of the Fourteenth International Conference on Tangible, Embedded, and Embodied Interaction},
+pages = {323–336},
+numpages = {14},
+keywords = {collaborative analysis, education, information visualization, data physicalization, tangible interaction},
+location = {Sydney NSW, Australia},
+series = {TEI '20}
 }
 ```
