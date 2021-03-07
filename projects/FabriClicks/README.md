@@ -1,6 +1,6 @@
 
 # Combining Touchscreens with Passive Rich-ID Building Blocks to Support Context Construction in Touchscreen Interactions
-__ Maas Goudswaard<sup>1</sup>, Abel Abraham<sup>1,2</sup>, Bruna Goveia da Rocha<sup>1</sup>, Kristina Andersen<sup>1</sup>, and Rong-Hao Liang<sup>1</sup>__
+__Maas Goudswaard<sup>1</sup>, Abel Abraham<sup>1,2</sup>, Bruna Goveia da Rocha<sup>1</sup>, Kristina Andersen<sup>1</sup>, and Rong-Hao Liang<sup>1</sup>__
 
 _TU Eindhoven<sup>1</sup>, Simon Fraser University<sup>2</sup>_
 
@@ -10,10 +10,10 @@ ___ACM DIS 2020: ACM SIGCHI Conference on Human Factors in Computing Systems___
 
 
 ## Abstract
-This research investigates the design space of combining touchscreens with passive rich-ID building block systems to support the physical construction of contexts in touchscreen interactions. With two proof-of-concept systems, RFIPillars and RFITiles, we explore various schemes for using tangible inputs for context enrichment in touchscreen interactions. Instead of incorporating an electronic touchscreen module that requires per-module maintenance, this work intentionally makes each tangible object passive. We explore rear-projection solutions to integrate touchscreen interactions into these passive building blocks with capacitive touch sensing techniques and deliberate physical forgiving to retain the merits of being both batteryless and wireless. The presented research artifacts embody the interaction designs and elucidate scalability challenges in integrating touchscreen interactions into this emerging tangible user interface.
+Mechanical pushbuttons, which provide physical landmarks and clear tactile feedback, are easily accessible and highly reliable in eyes-free use. Potentially, their merits can improve the experiences of on-body or wearable HCI. However, they are not commonly adopted as a user interface of smart textiles because the physical mechanism of conventional pushbutton hardware requires further integration, which should be seamless enough to be comfortably worn. In this pictorial, we present a design exploration of the methodologies for interweaving mechanical pushbuttons into fabrics. The exploration used a frame system, which unifies the workflow of digital embroidery and 3D printing and enables the exploration of the physical design. Through the process, we investigated methods of integration and fabrication through making and presented our findings with proof-of-concept implementations. We also discussed the alternative designs and interaction methods as well as their implications to enlighten future research directions and opportunities.
 
 ## Keywords
-RFID; Stackable; Touchscreen; Rich-ID; Building Blocks, Capacitive Sensing, Rear-Projection, Modular Interface, Tangible User Interface
+Fabrication; Pushbuttons; Embroidery; 3D Printing; Wearables
 
 ## Cite this Work
 ```
