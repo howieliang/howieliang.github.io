@@ -5,8 +5,6 @@ __Rong-Hao Liang, Zengrong Guo__
 
 _TU Eindhoven_
 
-_National Taiwan University<sup>1</sup>, TU Eindhoven<sup>2</sup>_
-
 ## Abstract
 TBA
 
