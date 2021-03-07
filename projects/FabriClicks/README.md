@@ -1,12 +1,12 @@
 
+___ACM DIS '20: 2020 ACM Designing Interactive Systems Conference___
+
 # FabriClick: Interweaving Pushbuttons into Fabrics Using 3D Printing and Digital Embroidery
 __Maas Goudswaard<sup>1</sup>, Abel Abraham<sup>1,2</sup>, Bruna Goveia da Rocha<sup>1</sup>, Kristina Andersen<sup>1</sup>, and Rong-Hao Liang<sup>1</sup>__
 
 _TU Eindhoven<sup>1</sup>, Simon Fraser University<sup>2</sup>_
 
-___ACM DIS 2020: ACM SIGCHI Conference on Human Factors in Computing Systems___
-
- __\[DIS 2020 Best Paper Honorable Mention\]__
+ __\[DIS '20 Best Paper Honorable Mention\]__
 
 [ACM Digital Library](https://dl.acm.org/doi/10.1145/3357236.3395569)
 
