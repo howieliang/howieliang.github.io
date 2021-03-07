@@ -1,5 +1,5 @@
 
-___ACM DIS '20: 2020 ACM Designing Interactive Systems Conference___
+___ACM DIS '20: ACM Designing Interactive Systems Conference 2020___
 
 # FabriClick: Interweaving Pushbuttons into Fabrics Using 3D Printing and Digital Embroidery
 __Maas Goudswaard<sup>1</sup>, Abel Abraham<sup>1,2</sup>, Bruna Goveia da Rocha<sup>1</sup>, Kristina Andersen<sup>1</sup>, Rong-Hao Liang<sup>1</sup>__
