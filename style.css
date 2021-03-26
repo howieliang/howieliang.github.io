@@ -29,7 +29,7 @@ a.menu:hover { font-weight:none; text-decoration: underline; color: #0b8bbb;}
 .tline { clear: both; border-bottom: 1px #eee solid; }
 
 p { font-size: 14px; margin: 2px 0 2px 0px; }
-p.info { font-size: 13px; margin: 10px 0px 10px 0px; text-align: justify;}
+p.info { font-size: 13px; margin: 10px 0px 10px 0px; }
 p.hist { font-size: 12px; font-weight:bold;}
 p.author { font-size: 10px; }
 p.position { font-size: 12px; }
@@ -58,9 +58,9 @@ img.fig { width: 100%; border: 0px #ddd solid; margin: 0px 0px 5px 0px;}
 /* -- Header -- */
 /* ------------ */
 #header { float: left; width: 800px; margin: 0 0 10px 0; }
-#header #header-content { float: right; width: 55%; margin: 10px 10px 10px 10px;}
+#header #header-content { float: right; width: 75%; margin: 0px 0px 0px 0px;}
 #header #contact-details { float: left; margin: 0px 0 0 0; }
-#header #header-photo { float: left; width: 40%; padding: 20px 10px 10px 10px; }
+#header #header-photo { float: left; width: 20%; padding: 20px 10px 10px 10px; }
 #header #header-photo img { width: 100%; height: 100%; border: 1px #ddd solid; }
 
 /*
