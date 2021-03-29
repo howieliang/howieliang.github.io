@@ -1,4 +1,4 @@
-# Interactive Intelligent Products
+# Designing User Interfaces with Emerging Technologies
 
 ----------
 
