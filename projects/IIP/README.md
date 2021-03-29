@@ -15,13 +15,6 @@ DBB220 / 2019 Semester B Quartile 4 / TU Eindhoven
 *Homepage: [http://ronghaoliang.page/](http://ronghaoliang.page/)*
 
 ----------
-## Teaching Assistants
-
-Dr. Zengrong Guo, *Postdoc Researcher, Future Everyday Group, Industrial Design, TU Eindhoven*
-
-Ruben van Dijk, *PhD candidate, Future Everyday Group, Industrial Design, TU Eindhoven*
-
-----------
 
 ## Content
 
@@ -47,6 +40,12 @@ Students will
 2. Understand and be able to use at least one sensor for interactivity and data collection.
 3. Show the ability to use machine learning algorithms as a design method for developing at least one product/service concept in which the machine intelligence augments the design.
 4. Show the ability to address the concept as a realistic design problem in a societal context.
+
+## Teaching Assistants
+
+Dr. Zengrong Guo, *Postdoc Researcher, Future Everyday Group, Industrial Design, TU Eindhoven*
+
+Ruben van Dijk, *PhD candidate, Future Everyday Group, Industrial Design, TU Eindhoven*
 
 ## Syllabus
 

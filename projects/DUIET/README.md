@@ -15,15 +15,6 @@ DBM170 / 2020 Semester A Quartile 2 / TU Eindhoven
 *Homepage: [http://ronghaoliang.page/](http://ronghaoliang.page/)*
 
 ----------
-## Teaching Assistants
-
-Dr. Zengrong Guo, *Postdoc Researcher, Future Everyday Group, Industrial Design, TU Eindhoven*
-
-Laura Bijl, *Master Student, Industrial Design, TU Eindhoven*
-
-Noa van der Horst, *Master Student, Industrial Design, TU Eindhoven*
-
-----------
 
 ## Content
 
@@ -56,6 +47,15 @@ The students will develop realization skills with the introduced emerging techno
 3.  Learning the fundamental theory and emerging practices of the technology and realization that support the proof-of-concept implementation.
 4.  Validating the product and service design concepts in the context of user and society.
 5.  Presenting and reflecting on the results at an academic level.
+
+----------
+## Teaching Assistants
+
+Dr. Zengrong Guo, *Postdoc Researcher, Future Everyday Group, Industrial Design, TU Eindhoven*
+
+Laura Bijl, *Master Student, Industrial Design, TU Eindhoven*
+
+Noa van der Horst, *Master Student, Industrial Design, TU Eindhoven*
 
 ## Syllabus
 
