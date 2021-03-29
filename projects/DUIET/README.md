@@ -92,6 +92,7 @@ Capacitive Sensing, Vinyl Cutting Circuits, Serial Communication
 ----------
 ### Lecture 4a: Shape-Changing UIs
 - Shape-Changing Interfaces
+- Radical Atoms
 
 ### Lecture 4b: Building Your Knowledge Base 
 - Build up your knowledge base with DUIET Citation Trees
