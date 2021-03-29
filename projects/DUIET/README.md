@@ -2,177 +2,136 @@
 
 ----------
 
-DBB220 / 2019 Semester B Quartile 4 / TU Eindhoven
+DBM170 / 2020 Semester A Quartile 2 / TU Eindhoven
 
-## Online Lectures for Rapid Prototyping Interactive Products with Machine Learning and Signal Processing.
-
-*(Beta Version: Open to TU/e Industrial Design PhD Students and Scientific Staffs)*
-Example Codes: [**Github Repository**](https://github.com/howieliang/IIP1920)
+## This Course Introduces Emerging User Interface Technologies That Might Impact the Future Generations of Human-Computer Interaction (HCI) Design. 
 
 ----------
 
 **Responsible Lecturer: Dr. Rong-Hao Liang** 
+
 *Assistant Professor, Future Everyday Group, Industrial Design, TU Eindhoven; Assistant Professor, Signal Processing Systems Group, Electrical Engineering, TU Eindhoven*
+
 *Homepage: http://ronghaoliang.page/*
-
-----------
-
-**Sensors** not only enable the interactivity of products but also generate data. **Machine intelligence** leverages computational power and data to empower further the product to deal with design problems involved prediction, decision, and adaptation. This course aims to help the industrial students understand the main paradigms in sensing, data collection, signal processing, and machine learning to apply them in meaningful design solutions of **intelligent interactive products**.
-
-![An Interactive Intelligent Product](https://paper-attachments.dropbox.com/s_2872065C7B1453917D680BF73E65026F47C98466B9BC5AC6E5A3A3247AFA79E1_1590905704193_image.png)
-
-
-The course combine theories and practices. Through a series of lectures and workshops, you will learn the principle and functionality of the sensors and machine intelligence. You will develop the ability to use these signal processing methods and machine learning algorithms to deal with everyday life problems where real-world complexity, uncertainty, and changing conditions make the use of these technical solutions a necessity. Understanding the type of problems that really will benefit from the utilization of signal processing methods and machine learning algorithms and creating realistic scenarios of use is equally important.
-
-[**Arduino**](https://www.arduino.cc/)**,** [**Processing**](https://processing.org/), and [**Weka**](https://www.cs.waikato.ac.nz/~ml/weka/) are used as the development platform. Ready available example codes are available in [**Github repository**](https://github.com/howieliang/IIP1920), so you don’t have to implement the algorithms from scratch.
-
-
-![Course Overview: Topics Covered in Interactive Intelligent Products](https://paper-attachments.dropbox.com/s_2872065C7B1453917D680BF73E65026F47C98466B9BC5AC6E5A3A3247AFA79E1_1590991337954_image.png)
 
 ----------
 ## Teaching Assistants
 
 Dr. Zengrong Guo, *Postdoc Researcher, Future Everyday Group, Industrial Design, TU Eindhoven*
-Ruben van Dijk, *PhD candidate, Future Everyday Group, Industrial Design, TU Eindhoven*
 
-# 1. Introduction and Problem Formulation
+Laura Bijl, *Master Student, Industrial Design, TU Eindhoven*
+
+Noa van der Horst, *Master Student, Industrial Design, TU Eindhoven*
+
 ----------
-## 1.1 Introduction
-- **Overview**
-- **Prerequisites**
-- **Schedule**
-- **Module 1: Machine Learning**
-- **Module 2: Signal Processing**
-- **Synergies Between The Two Modules**
 
-## 1.2 Problem Formulation
-- **Why Machine Learning?**
-- **Formulate Supervised Learning problems**
-- **Types of Learning**
+## Content
 
-# 2. Data Preparation and Serial Communication
+To address ID design research challenges where the main objective is to create value and opportunities in systems with "emerging technologies" and materials, This course introduces emerging user interface technologies that might impact the future generations of human-computer interaction (HCI) design. This master elective belongs to both the ID competency area “Technology and Realization” and “User and Society” and offers a skillset of technical HCI research through design. Through a series of lectures and workshops, you will get an overview of the emerging paradigms of natural user interface technologies in the ubiquitous computing era.
+
+This master elective belongs to both the ID competency area “Technology and Realization” and “User and Society” and offers a skillset of technical HCI research through design. Through a series of lectures and workshops, you will get an overview of the emerging paradigms of natural user interface technologies in the ubiquitous computing era.
+
+The course will cover but not limit to the following topics:
+- Ubiquitous computing and natural user interfaces.
+- Tangible and shape-changing user interfaces.
+- Wearable user interfaces and human augmentation.
+- Rapid circuit prototyping and soft electronics.
+- Mixed-reality (AR/VR) interaction techniques.
+
+Students will be challenged to:
+- Read and review HCI papers, summarize the principles and reflect on their design implications in weekly assignments.
+- Develop innovative concepts of futuristic user interfaces with these emerging technologies and justify the novelty of concepts with literature.
+- Implement proof-of-concept prototypes to demonstrate the viability of the idea.
+- Validate the prototype through well-designed technical and user evaluations.
+- Present and discuss the findings at an academic level.
+Basic knowledge and skills of programming, physical modeling, and electronic prototyping are required for implementing your design concepts.
+
+The students will team up and develop several feasible product and service design concepts based on the results presented in the emerging technology papers in the midterm and pick one to develop in-depth at the end of the term. The students will deliver final deliverables, including is a work-in-progress paper with a sufficient literature review that shows the societal relevance, an implementation plan that shows an awareness of the technological capabilities and limitations, and a form of evaluation to prove the feasibility of the concepts (e.g., proof-of-concept implementation, preliminary study with an experiential prototype).
+
+## Learning Objects
+
+The students will develop realization skills with the introduced emerging technologies (T&R), research skills to keep themselves up-to-date on the emerging technologies (DRP), and made product and service designs that are relevant to users and society (U&S). The main learning points are:
+1.  Understanding the visions and theories of natural user interface (NUI) technologies in the context of Human-Computer Interaction (HCI).
+2.  Developing the abilities to stay up-to-date on the emerging UI technologies and use them to justify their futuristic product and service design concepts.
+3.  Learning the fundamental theory and emerging practices of the technology and realization that support the proof-of-concept implementation.
+4.  Validating the product and service design concepts in the context of user and society.
+5.  Presenting and reflecting on the results at an academic level.
+
+## Syllabus
+
+# Week 1
+
+## Lecture 1a: Visions and Evolutions in UI Technologies
+- Course Overview
+- Visions and Evolutions in UI Technologies
+    - Traditional UI Technologies
+    - Evolutions of natural user interfaces
+    - Visions of ubiquitous computing
+
+## Lab 1: Making Soft Touch Sensor Pads
+Capacitive Sensing, Vinyl Cutting Circuits, Serial Communication
+- Basic Capacitive Touch Sensing
+- Making Soft Touch Sensor Pads
+
+# Week 2
+
+## Lecture 2: Activating Your E-Tech Radar
+- How to follow “emerging” technologies
+- How to present research contributions
+
+## Lab 2: Making Soft Multi-touch Sensor Pad
+- Making Soft Multi-Touch Sensor Pads
+- Projected Capacitive Touch Sensing
+
+# Week 3
 ----------
-## 2.1 Data Preparation
-- **CSV vs. ARFF**
-- **Save data as ARFF files**
-- **Load data as ARFF files**
+## Lecture 3: Reality-Based Interaction & Tangible UIs
+- What is natural in natural user interfaces
+- Tangible user interfaces
 
-## 2.2 Serial Communication
-- **Timer and Uniform Sampling**
-- **Send Sensor Data Stream to Processing**
-- **Save Serial Data as ARFF files**
-- **Bidirectional Serial Data Streaming between Arduino and Processing**
+## Paper Presentation
 
-# 3. Classification and Regression
+# Week 4
 ----------
-## 3.1 Classification
-- **Noise in Data**
-- **Linear Support Vector Classification**
-    - Linear Support Vector Classifier
-    - Train a classifier from data
-    - Confusion matrix and In-sample accuracy
-    - Overfitting and out-of-sample accuracy
-    - Regularization
-    - k-fold Cross-Validation
-    - Optimize a prediction model
-    - Load a test set and get the out-of-sample accuracy
-- **Real-Time Posture Classification**
+## Lecture 4a: Shape-Changing UIs
+- Shape-Changing Interfaces
 
-## 3.2 Regression
-- **Linear Regression**
-    - Linear Regressor
-    - Train a regressor from data
-    - Loss function
-    - Linear Regression in higher dimension
-- **Real-Time Posture Regression**
+## Lecture 4b: Building Your Knowledge Base 
+- Build up your knowledge base with DUIET Citation Trees
+- Use Overleaf to manage your references
 
-# 4. Time-Series Signal Processing
+## Lab 3: Customizing Soft NFC Antenna
+- Use an NFC Reader
+- Modify the NFC Reader
+- Customizing the NFC Reader Antenna
+
+# Week 5
 ----------
-## 4.1 Time-Series Signal Processing
-- **Visualizing Sensor Data Stream**
-- **Segmentation and Activation Threshold**
-- **Windowing and Statistic Feature**
+## Lecture 5: Wearable, On-Body UIs, and Human-Computer Integration
+- Wearables for Easing Mobile Interactions
+- Wearables for Sensing Human Activity and Physiology
+- Human Augmentation and Human-Computer Integration
 
-## 4.2 ****Real-Time Motion Classification and Regression
-- **Real-time motion classification**
-- **Real-time motion regression**
-- **Using More Features**
+## Idea Pitching + Help Session
 
-# 5. Evaluation and Reporting
+# Week 6
+## Lecture 6: Mixed Reality
+- HCI in Virtual Reality
+- HCI in Augmented Reality
+
+## Lab 4: Making Soft Actuators
+- Customizing Heat-driven Silent Actuators
+
+# Week 7
 ----------
-## 5.1 More Algorithms
-- **More Classifiers**
-    - K-Nearest Neighbors Classifier
-    - Kernel Support Vector Classifier
-- **More Regressors**
-    - Linear Support Vector Regressor
-    - Kernel Support Vector Regressor
-- **Hyper-parameter Tuning**
+## Help Sessions
 
-## 5.2 Evaluation and Reporting
-- **More Evaluation Metrics**
-    - True Positive Rate
-    - False Positive Rate and Specificity
-    - Precision
-    - F1 score
-    - Area Under ROC
-    - More than Two Classes
-    - Reporting
-- **Validation Methods**
-    - Validate the product with users
-    - Comparing different algorithms 
-    - Reporting
-
-# 6. Frequency-Domain Signal Processing
+# Week 8
 ----------
-## 6.1 Extraction Features in Frequency Domain
-- **Time Series in Frequency Domain**
-- **Sampling Theory**
-- **Fast Fourier Transform**
-- **Window Overlapping vs. Information Loss**
-- **Segmentation, Windowing, and Filtering**
+## Help Sessions
 
-## 6.2 Recognizing Sounds and Vibrations
-- **Real-time audio classification using a microphone**
-- **Real-time vibration classification using an accelerometer**
-
-# 7. Sensor Fusion and Feature Selection
+# Week 9
 ----------
-## 7.1 Sensor Fusion and Context Recognition
-- **Human Activity Recognition Systems**
-- **Synchronizing Sensor Data Streams**
-- **Context Recognition using Sensor Fusion**
-
-## 7.2 Feature Selection and Dimensionality Reduction
-****- **Feature Selection**
-- **Dimensionality Reduction**
-
-# 8. Spatial-Domain Signal Processing
-----------
-## 8.1 Extracting Features from Images
-- **Image Recognition and Computer Vision**
-- **Bitmap Data Structure**
-- **Statistic Features: Histograms**
-- **Structural Features: Edges**
-- **Simplification and Downsampling**
-- **Segmentation methods**
-
-## 8.2 Camera-based Activity Recognition
-- **Haar Cascade Classifier**
-- **Application: Real-time Face Detection**
-- **Marker-based Object Tracking**
-- **Infra-red Cameras**
-
-# 9. Neural Networks and Wrap Up
-----------
-## 9.1 Neural Networks
-****- **Artificial Neural Network**
-- **Neuron and Activation Functions**
-- **Forward and Backward Propagation**
-- **Gradient Descent and Learning Rate**
-- **Training an ANN**
-- **Convolutional Neural Network**
-
-## 9.2 Looking Back and Moving Forward
+## Final Presentatino
 
 ----------

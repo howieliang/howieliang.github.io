@@ -4,8 +4,7 @@
 
 DBB220 / 2019 Semester B Quartile 4 / TU Eindhoven
 
-## A Course for Rapid Prototyping Interactive Products with Machine Learning and Signal Processing.
-Example Codes: [**Github Repository**](https://github.com/howieliang/IIP1920)
+## This Course Introduces Fundamental Skills and Knowledge for Rapid Prototyping Interactive Products with Machine Learning and Signal Processing.
 
 ----------
 
@@ -24,28 +23,36 @@ Ruben van Dijk, *PhD candidate, Future Everyday Group, Industrial Design, TU Ein
 
 ----------
 
-**Sensors** not only enable the interactivity of products but also generate data. **Machine intelligence** leverages computational power and data to empower further the product to deal with design problems involved prediction, decision, and adaptation. This course aims to help the industrial students understand the main paradigms in sensing, data collection, signal processing, and machine learning to apply them in meaningful design solutions of **intelligent interactive products**.
+## Content
+
+Sensors not only enable interactivity of products but also generate data. Machine learning algorithms leverage computational power and data to empower further the product to deal with design problems involved in prediction, decision, and adaptation. Tangible products support rich embodied interactions. This course aims to help the students understand the main paradigms in sensing, data collection, signal processing, and machine learning to apply them in meaningful design solutions of intelligent and interactive tangible products.
 
 ![An Interactive Intelligent Product](https://paper-attachments.dropbox.com/s_2872065C7B1453917D680BF73E65026F47C98466B9BC5AC6E5A3A3247AFA79E1_1590905704193_image.png)
+ 
+This course belongs to both Industrial Design competency areas “Math, Data, and Computing” and “Technology and Realization”.
+ 
+The course will combine theories and practices. Through a series of lectures and workshops, you will learn the principle and functionality of the sensors and machine learning algorithms. You will develop the ability to use these signal processing methods and machine learning algorithms to deal with everyday life problems where real-world complexity, uncertainty, and changing conditions make the use of these technical solutions a necessity. Understanding the type of problems that really will benefit from the utilization of signal processing methods and machine learning algorithms and creating realistic scenarios of use for intelligent products and services is equally important.
 
-
-The course combine theories and practices. Through a series of lectures and workshops, you will learn the principle and functionality of the sensors and machine intelligence. You will develop the ability to use these signal processing methods and machine learning algorithms to deal with everyday life problems where real-world complexity, uncertainty, and changing conditions make the use of these technical solutions a necessity. Understanding the type of problems that really will benefit from the utilization of signal processing methods and machine learning algorithms and creating realistic scenarios of use is equally important.
-
-[**Arduino**](https://www.arduino.cc/)**,** [**Processing**](https://processing.org/), and [**Weka**](https://www.cs.waikato.ac.nz/~ml/weka/) are used as the development platform. Ready available example codes are available in [**Github repository**](https://github.com/howieliang/IIP1920), so you don’t have to implement the algorithms from scratch.
-
+The course will cover but is not limited to the following topics:
+- Sensor data collection, pre-processing, and feature extraction.
+- Real-time signal processing in time, frequency, and spatial domain.
+- Supervised, unsupervised, and reinforcement learning algorithms. 
+- Evaluation of learning algorithms.
 
 ![Course Overview: Topics Covered in Interactive Intelligent Products](https://paper-attachments.dropbox.com/s_2872065C7B1453917D680BF73E65026F47C98466B9BC5AC6E5A3A3247AFA79E1_1590991337954_image.png)
+
+## Learning Objects
+Students will
+1. Understand and be able to apply and evaluate at least one machine learning algorithm correctly.
+2. Understand and be able to use at least one sensor for interactivity and data collection.
+3. Show the ability to use machine learning algorithms as a design method for developing at least one product/service concept in which the machine intelligence augments the design.
+4. Show the ability to address the concept as a realistic design problem in a societal context.
+
+## Syllabus
 
 # 1. Introduction and Problem Formulation
 ----------
 ## 1.1 Introduction
-- **Overview**
-- **Prerequisites**
-- **Schedule**
-- **Module 1: Machine Learning**
-- **Module 2: Signal Processing**
-- **Synergies Between The Two Modules**
-
 ## 1.2 Problem Formulation
 - **Why Machine Learning?**
 - **Formulate Supervised Learning problems**
