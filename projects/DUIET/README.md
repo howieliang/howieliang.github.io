@@ -5,22 +5,15 @@
 DBB220 / 2019 Semester B Quartile 4 / TU Eindhoven
 
 ## Online Lectures for Rapid Prototyping Interactive Products with Machine Learning and Signal Processing.
+
+*(Beta Version: Open to TU/e Industrial Design PhD Students and Scientific Staffs)*
 Example Codes: [**Github Repository**](https://github.com/howieliang/IIP1920)
 
 ----------
 
 **Responsible Lecturer: Dr. Rong-Hao Liang** 
-
 *Assistant Professor, Future Everyday Group, Industrial Design, TU Eindhoven; Assistant Professor, Signal Processing Systems Group, Electrical Engineering, TU Eindhoven*
-
 *Homepage: http://ronghaoliang.page/*
-
-----------
-## Teaching Assistants
-
-Dr. Zengrong Guo, *Postdoc Researcher, Future Everyday Group, Industrial Design, TU Eindhoven*
-
-Ruben van Dijk, *PhD candidate, Future Everyday Group, Industrial Design, TU Eindhoven*
 
 ----------
 
@@ -35,6 +28,12 @@ The course combine theories and practices. Through a series of lectures and work
 
 
 ![Course Overview: Topics Covered in Interactive Intelligent Products](https://paper-attachments.dropbox.com/s_2872065C7B1453917D680BF73E65026F47C98466B9BC5AC6E5A3A3247AFA79E1_1590991337954_image.png)
+
+----------
+## Teaching Assistants
+
+Dr. Zengrong Guo, *Postdoc Researcher, Future Everyday Group, Industrial Design, TU Eindhoven*
+Ruben van Dijk, *PhD candidate, Future Everyday Group, Industrial Design, TU Eindhoven*
 
 # 1. Introduction and Problem Formulation
 ----------
@@ -145,7 +144,7 @@ The course combine theories and practices. Through a series of lectures and work
 - **Context Recognition using Sensor Fusion**
 
 ## 7.2 Feature Selection and Dimensionality Reduction
-- **Feature Selection**
+****- **Feature Selection**
 - **Dimensionality Reduction**
 
 # 8. Spatial-Domain Signal Processing
@@ -167,7 +166,7 @@ The course combine theories and practices. Through a series of lectures and work
 # 9. Neural Networks and Wrap Up
 ----------
 ## 9.1 Neural Networks
-- **Artificial Neural Network**
+****- **Artificial Neural Network**
 - **Neuron and Activation Functions**
 - **Forward and Backward Propagation**
 - **Gradient Descent and Learning Rate**
