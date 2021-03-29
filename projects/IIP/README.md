@@ -4,11 +4,11 @@
 
 DBB220 / 2019 Semester B Quartile 4 / TU Eindhoven
 
-## This Course Introduces Fundamental Skills and Knowledge for Rapid Prototyping Interactive Products with Machine Learning and Signal Processing.
+** This course introduces fundamental skills and knowledge for rapid prototyping interactive products with machine learning and signal processing. **
 
 ----------
 
-**Responsible Lecturer: Dr. Rong-Hao Liang** 
+**Responsible Lecturer: Dr. Rong-Hao Liang** (Since 2017)
 
 *Assistant Professor, Future Everyday Group, Industrial Design, TU Eindhoven; Assistant Professor, Signal Processing Systems Group, Electrical Engineering, TU Eindhoven*
 

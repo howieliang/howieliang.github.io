@@ -4,15 +4,15 @@
 
 DBM170 / 2020 Semester A Quartile 2 / TU Eindhoven
 
-## This Course Introduces Emerging User Interface Technologies That Might Impact the Future Generations of Human-Computer Interaction (HCI) Design. 
+** This course introduces emerging user interface technologies that might impact the future generations of human-computer interaction (HCI) design. **
 
 ----------
 
-**Responsible Lecturer: Dr. Rong-Hao Liang** 
+**Responsible Lecturer: Dr. Rong-Hao Liang** (Since 2020)
 
 *Assistant Professor, Future Everyday Group, Industrial Design, TU Eindhoven; Assistant Professor, Signal Processing Systems Group, Electrical Engineering, TU Eindhoven*
 
-*Homepage: http://ronghaoliang.page/*
+*Homepage: [http://ronghaoliang.page/](http://ronghaoliang.page/)*
 
 ----------
 ## Teaching Assistants
