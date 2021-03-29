@@ -59,79 +59,79 @@ The students will develop realization skills with the introduced emerging techno
 
 ## Syllabus
 
-# Week 1
+## Week 1
 
-## Lecture 1a: Visions and Evolutions in UI Technologies
+### Lecture 1a: Visions and Evolutions in UI Technologies
 - Course Overview
 - Visions and Evolutions in UI Technologies
     - Traditional UI Technologies
     - Evolutions of natural user interfaces
     - Visions of ubiquitous computing
 
-## Lab 1: Making Soft Touch Sensor Pads
+### Lab 1: Making Soft Touch Sensor Pads
 Capacitive Sensing, Vinyl Cutting Circuits, Serial Communication
 - Basic Capacitive Touch Sensing
 - Making Soft Touch Sensor Pads
 
-# Week 2
+## Week 2
 
-## Lecture 2: Activating Your E-Tech Radar
+### Lecture 2: Activating Your E-Tech Radar
 - How to follow “emerging” technologies
 - How to present research contributions
 
-## Lab 2: Making Soft Multi-touch Sensor Pad
+### Lab 2: Making Soft Multi-touch Sensor Pad
 - Making Soft Multi-Touch Sensor Pads
 - Projected Capacitive Touch Sensing
 
-# Week 3
+## Week 3
 ----------
-## Lecture 3: Reality-Based Interaction & Tangible UIs
+### Lecture 3: Reality-Based Interaction & Tangible UIs
 - What is natural in natural user interfaces
 - Tangible user interfaces
 
-## Paper Presentation
+### Paper Presentation
 
-# Week 4
+## Week 4
 ----------
-## Lecture 4a: Shape-Changing UIs
+### Lecture 4a: Shape-Changing UIs
 - Shape-Changing Interfaces
 
-## Lecture 4b: Building Your Knowledge Base 
+### Lecture 4b: Building Your Knowledge Base 
 - Build up your knowledge base with DUIET Citation Trees
 - Use Overleaf to manage your references
 
-## Lab 3: Customizing Soft NFC Antenna
+### Lab 3: Customizing Soft NFC Antenna
 - Use an NFC Reader
 - Modify the NFC Reader
 - Customizing the NFC Reader Antenna
 
-# Week 5
+## Week 5
 ----------
-## Lecture 5: Wearable, On-Body UIs, and Human-Computer Integration
+### Lecture 5: Wearable, On-Body UIs, and Human-Computer Integration
 - Wearables for Easing Mobile Interactions
 - Wearables for Sensing Human Activity and Physiology
 - Human Augmentation and Human-Computer Integration
 
-## Idea Pitching + Help Session
+### Idea Pitching + Help Session
 
-# Week 6
-## Lecture 6: Mixed Reality
+## Week 6
+### Lecture 6: Mixed Reality
 - HCI in Virtual Reality
 - HCI in Augmented Reality
 
-## Lab 4: Making Soft Actuators
+### Lab 4: Making Soft Actuators
 - Customizing Heat-driven Silent Actuators
 
-# Week 7
+## Week 7
 ----------
-## Help Sessions
+### Help Sessions
 
-# Week 8
+## Week 8
 ----------
-## Help Sessions
+### Help Sessions
 
-# Week 9
+## Week 9
 ----------
-## Final Presentatino
+### Final Presentation
 
 ----------
