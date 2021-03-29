@@ -20,8 +20,6 @@ __This course introduces emerging user interface technologies that might impact 
 
 To address ID design research challenges where the main objective is to create value and opportunities in systems with "emerging technologies" and materials, This course introduces emerging user interface technologies that might impact the future generations of human-computer interaction (HCI) design. This master elective belongs to both the ID competency area “Technology and Realization” and “User and Society” and offers a skillset of technical HCI research through design. Through a series of lectures and workshops, you will get an overview of the emerging paradigms of natural user interface technologies in the ubiquitous computing era.
 
-This master elective belongs to both the ID competency area “Technology and Realization” and “User and Society” and offers a skillset of technical HCI research through design. Through a series of lectures and workshops, you will get an overview of the emerging paradigms of natural user interface technologies in the ubiquitous computing era.
-
 The course will cover but not limit to the following topics:
 - Ubiquitous computing and natural user interfaces.
 - Tangible and shape-changing user interfaces.
