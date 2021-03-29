@@ -4,7 +4,7 @@
 
 DBB220 / 2019 Semester B Quartile 4 / TU Eindhoven
 
-## Online Lectures for Rapid Prototyping Interactive Products with Machine Learning and Signal Processing.
+## A Course for Rapid Prototyping Interactive Products with Machine Learning and Signal Processing.
 Example Codes: [**Github Repository**](https://github.com/howieliang/IIP1920)
 
 ----------
@@ -13,7 +13,7 @@ Example Codes: [**Github Repository**](https://github.com/howieliang/IIP1920)
 
 *Assistant Professor, Future Everyday Group, Industrial Design, TU Eindhoven; Assistant Professor, Signal Processing Systems Group, Electrical Engineering, TU Eindhoven*
 
-*Homepage: http://ronghaoliang.page/*
+*Homepage: [http://ronghaoliang.page/](http://ronghaoliang.page/)*
 
 ----------
 ## Teaching Assistants
