@@ -4,7 +4,7 @@
 
 DBB220 / 2019 Semester B Quartile 4 / TU Eindhoven
 
-** This course introduces fundamental skills and knowledge for rapid prototyping interactive products with machine learning and signal processing. **
+__This course introduces fundamental skills and knowledge for rapid prototyping interactive products with machine learning and signal processing.__
 
 ----------
 

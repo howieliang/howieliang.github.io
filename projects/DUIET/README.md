@@ -4,7 +4,7 @@
 
 DBM170 / 2020 Semester A Quartile 2 / TU Eindhoven
 
-** This course introduces emerging user interface technologies that might impact the future generations of human-computer interaction (HCI) design. **
+__This course introduces emerging user interface technologies that might impact the future generations of human-computer interaction (HCI) design.__
 
 ----------
 
@@ -48,7 +48,6 @@ The students will develop realization skills with the introduced emerging techno
 4.  Validating the product and service design concepts in the context of user and society.
 5.  Presenting and reflecting on the results at an academic level.
 
-----------
 ## Teaching Assistants
 
 Dr. Zengrong Guo, *Postdoc Researcher, Future Everyday Group, Industrial Design, TU Eindhoven*
