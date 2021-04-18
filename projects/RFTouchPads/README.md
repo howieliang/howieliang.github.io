@@ -9,7 +9,7 @@ _National Taiwan University<sup>1</sup>, TU Eindhoven<sup>2</sup>_
 [ACM Digital Library](https://dl.acm.org/doi/abs/10.1145/3332165.3347910)
 
 ## Video
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/jVh7w2LBYKY/0.jpg)](https://www.youtube.com/watch?v=jVh7w2LBYKY)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/4n0yRLGZ8Gk/0.jpg)](https://www.youtube.com/watch?v=4n0yRLGZ8Gk)
 
 ## Abstract
 This paper presents RFTouchPads, a system of batteryless and wireless modular hardware designs of two-dimensional (2D) touch sensor pads based on the ultra-high frequency (UHF) radio-frequency identification (RFID) technology. In this system, multiple RFID IC chips are connected to an antenna in parallel. Each chip connects only one of its endpoints to the antenna; hence, the module normally turns off when it gets insufficient energy to operate. When a finger touches the circuit trace attached to another endpoint of the chip, the finger functions as part of the antenna that turns the connected chip on, while the finger touch location is determined according to the chip's ID. Based on this principle, we propose two hardware designs, namely, StickerPad and TilePad. StickerPad is a flexible 3×3 touch-sensing pad suitable for applications on curved surfaces such as the human body. TilePad is a modular 3×3 touch-sensing pad that supports the modular area expansion by tiling and provides a more flexible deployment because its antenna is folded. Our implementation allows 2D touch inputs to be reliability detected 2 m away from a remote antenna of an RFID reader. The proposed batteryless, wireless, and modular hardware design enables fine-grained and less-constrained 2D touch inputs in various ubiquitous computing applications.
