@@ -2,18 +2,16 @@ ___ACM CHI '21: CHI Conference on Human Factors in Computing Systems, Yokohama, 
 
 # NFCSense: Data-Defined Rich-ID Motion Sensing for Fluent Tangible Interaction Using a Commodity NFC Reader
 __Rong-Hao Liang, Zengrong Guo__
-
 _TU Eindhoven_
 
-## Video
-Full Video:
+## Videos
+###Full Video:
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/8eCY8QbDzgg/0.jpg)](https://www.youtube.com/watch?v=8eCY8QbDzgg)
 
-Demo:
-- Running an Unmodified RC522 NFC Reader at 300Hz with Arduino Uno 
+###Demo:
+- Running an Unmodified RC522 NFC Reader at 300Hz with Arduino Uno [Source Code: Github](https://github.com/howieliang/NFCSense)
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/tl8EKAQNlNc/0.jpg)](https://www.youtube.com/watch?v=tl8EKAQNlNc)
-[Source Code: Github](https://github.com/howieliang/NFCSense)
-![Hardware Configuration](/figures/overview.png)
 
 ## Abstract
 This paper presents _NFCSense_, a data-defined rich-ID motion sensing technique for fluent tangible interaction design by using commodity near-field communication (NFC) tags and a single NFC tag reader. An NFC reader can reliably recognize the presence of an NFC tag at a high read rate (\~300 reads/s) with low latency, but such high-speed reading has rarely been exploited because the reader may not effectively resolve collisions of multiple tags. Therefore, its human–computer interface applications have been typically limited to a discrete, hands-on interaction style using one tag at a time. In this work, we realized fluent, hands-off, and multi-tag tangible interactions by leveraging gravity and anti-collision physical constraints, which support effortless user input and maximize throughput. Furthermore, our system provides hot-swappable interactivity that enables smooth transitions throughout extended use. Based on the design parameters explored through a series of studies, we present a design space with proof-of-concept implementations in various applications. 
@@ -24,10 +22,9 @@ NFC, Rich-ID, Motion Sensing, Tags, Physical Constraints, Fluent, Tangible Inter
 ## Links and Downloadables
 - [ACM Digital Library](https://doi.org/10.1145/3411764.3445214) (the link will be available after May 8, 2021)
 - Paper [Pre-print; pdf](assets/chi21_preprint_lowres.pdf)
-- Press Kit (TBA: contact r.liang@tue.nl)
+- Press Kit (TBA; contact r.liang@tue.nl)
 - Dataset and Source Codes: [Github repository](https://github.com/howieliang/NFCSense)
 - Tutorials (TBA)
-<!-- - Kits and Tutorials  -->
 
 ## Introduction
 Near-field communication (NFC) systems have been widely deployed for object identification. Recently, NFC readers have also become integrated into many smartphones and smart devices to enable their users to easily and privately access NFC tag information without using their camera. An NFC reader, known as a high-frequency (HF) radio-frequency-identification (RFID) reader, can reliably recognize the presence of a tag at a high read rate (e.g., ∼ 300 tags/second), which makes NFC useful in industrial applications, such as workflow management.
@@ -36,7 +33,7 @@ Human–computer interaction (HCI) researchers have also extensively used NFC or
 
 To remedy this problem, in this paper, we present NFCSense, a data-defined rich-ID motion sensing technique for fluent tangible interaction design. The design space is defined based on data collected from commodity NFC tags and an NFC reader operating in the high-speed reading mode, which allows the motion features of an action performed on a tagged object to be extracted and recognized from the rich-ID time-series data. Our investigation began with an analysis of the feasibility of repurposing a commodity NFC reader as a speed sensor for obtaining data on the transient time-domain features (i.e., speed and frequency) of a moving NFC tag. Subsequently, we determined the optimal design parameters for practical use by analyzing data on the three-dimensional (3D) activation map of NFC tags. A tangible interaction design space, including the primitive designs of physical tokens, constraints, and motion sensing algorithms, was defined by these acquired parameters.
 
-![Figure 1](figures/chi21-174-fig1.png)Figure 1: Examples of fluent tangible interactions based on NFC Tags, physical constraints, and a 300-reads-per-second NFC reader: (a) measuring the speed and type of movement; (b) monitoring the speed at which the orientation of a tag-embedded fidget spinner rotates; (c) performing a batch operation with a tag position modulator, which ensures that collisions are avoided and the workflow is accelerated.
+__![Figure 1](figures/chi21-174-fig1.png)Figure 1: Examples of fluent tangible interactions based on NFC Tags, physical constraints, and a 300-reads-per-second NFC reader: (a) measuring the speed and type of movement; (b) monitoring the speed at which the orientation of a tag-embedded fidget spinner rotates; (c) performing a batch operation with a tag position modulator, which ensures that collisions are avoided and the workflow is accelerated.__
 
 The applicability of this approach was demonstrated by a proof-of-concept implementation of a system, which comprised a set of designs for fluent tangible interaction. Figures 1 a and 1 b show that the system can extract the time-domain features from the effortless actions performed by users on the NFC-tagged object. As indicated in Figure 1 c, with a physical constraint that modulates the tag's location and ensures that signal collisions are avoided, batch operations on multiple NFC tags can be performed to accelerate the workflow and increase throughput. In this study, we also explored wearable and non-planar reader antenna designs to extend the scope of use and the range of platforms through which this technique can be employed.
 
@@ -46,17 +43,17 @@ Our main contributions are two-fold, spanning the domains of engineering and des
 
 The remainder of the paper is organized as follows. First, we present the background of our study and review the literature. Subsequently, we describe our feasibility study and series of data-driven analyses. Thereafter, we present our data-defined rich-ID motion sensing approach, which was based on the aforementioned analyses, as realized in a proof-of-concept TUI system that instantiated our interaction designs in practical applications. Finally, we conclude this study by discussing design implications, limitations of this study, and future research directions.
 
-![Figure 2](figures/chi21-174-fig2.png)Figure 2: NFC system: (a) overview and (b) coil model. (c) Motion involved in tag activation.
+__![Figure 2](figures/chi21-174-fig2.png)Figure 2: NFC system: (a) overview and (b) coil model. (c) Motion involved in tag activation.__
 
-![Figure 3](figures/chi21-174-fig3.png)Figure 3: Feasibility study: (a) experimental apparatus; (b) NFC tag read duration slightly increases when a tag is detected, but the read duration is less than 3.2 ms; (c) at 300 Hz, the NFC reader achieved comparable performance with a Hall sensor, although further investigation is required regarding the activation threshold.
+__![Figure 3](figures/chi21-174-fig3.png)Figure 3: Feasibility study: (a) experimental apparatus; (b) NFC tag read duration slightly increases when a tag is detected, but the read duration is less than 3.2 ms; (c) at 300 Hz, the NFC reader achieved comparable performance with a Hall sensor, although further investigation is required regarding the activation threshold.__
 
-![Figure 4](figures/chi21-174-fig4.png)Figure 4: Measurement of the activation map of a non-tilted tag: (a) experiment apparatus; (b) activation map of a non-tilted tag; (c) completed activation map derived from the measured quadrant; (d) cross section at y = 0mm shows that z* = 6mm; (e) cross sections at z = [7, 12, 17, 22, 27, 32]mm > z*; (f) cross section at z = 4mm < z*.
+__![Figure 4](figures/chi21-174-fig4.png)Figure 4: Measurement of the activation map of a non-tilted tag: (a) experiment apparatus; (b) activation map of a non-tilted tag; (c) completed activation map derived from the measured quadrant; (d) cross section at y = 0mm shows that z* = 6mm; (e) cross sections at z = [7, 12, 17, 22, 27, 32]mm > z*; (f) cross section at z = 4mm < z*.__
 
-![Figure 5](figures/chi21-174-fig5.png)Figure 5: An NFC tag that could be fixed at various angles of tilt: (a) experimental apparatus and model; (b) measured activation maps and cross-sections at y = 0, which shows θ* = 30°.
+__![Figure 5](figures/chi21-174-fig5.png)Figure 5: An NFC tag that could be fixed at various angles of tilt: (a) experimental apparatus and model; (b) measured activation maps and cross-sections at y = 0, which shows θ* = 30°.__
 
-![Figure 6](figures/chi21-174-fig6.png)Figure 6: Measured activation maps and cross sections at y = 0 of a pair of separated tags at various distances, showing the effects of dgap.
+__![Figure 6](figures/chi21-174-fig6.png)Figure 6: Measured activation maps and cross sections at y = 0 of a pair of separated tags at various distances, showing the effects of dgap.__
 
-![Figure 7](figures/chi21-174-fig7.png)Figure 7: More NFC tag samples: (a) experimental apparatus. The PVC coating of T0 is removed to show the antenna structure. (b) Measured activation maps and (c) cross sections at y = 0.
+__![Figure 7](figures/chi21-174-fig7.png)Figure 7: More NFC tag samples: (a) experimental apparatus. The PVC coating of T0 is removed to show the antenna structure. (b) Measured activation maps and (c) cross sections at y = 0.__
 
 ![Figure 8](figures/chi21-174-fig8.png)Figure 8: Form primitives of tokens: (a) z < z*, (b) z > z*, (c) θ > θ*, and (d) 
 dgap>dgap*.
