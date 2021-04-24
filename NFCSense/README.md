@@ -1,32 +1,31 @@
 ___ACM CHI '21: CHI Conference on Human Factors in Computing Systems, Yokohama, Japan, May 2021___
 
-# NFCSense: Data-Defined Rich-ID Motion Sensing for Fluent Tangible Interaction Using a Commodity NFC Reader
+## NFCSense: Data-Defined Rich-ID Motion Sensing for Fluent Tangible Interaction Using a Commodity NFC Reader
 __Rong-Hao Liang, Zengrong Guo__
 _TU Eindhoven_
 
-## Videos
-###Full Video:
+### Full Video
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/8eCY8QbDzgg/0.jpg)](https://www.youtube.com/watch?v=8eCY8QbDzgg)
 
-###Demo:
+### Demo
 - Running an Unmodified RC522 NFC Reader at 300Hz with Arduino Uno [Source Code: Github](https://github.com/howieliang/NFCSense)
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/tl8EKAQNlNc/0.jpg)](https://www.youtube.com/watch?v=tl8EKAQNlNc)
 
-## Abstract
+### Abstract
 This paper presents _NFCSense_, a data-defined rich-ID motion sensing technique for fluent tangible interaction design by using commodity near-field communication (NFC) tags and a single NFC tag reader. An NFC reader can reliably recognize the presence of an NFC tag at a high read rate (\~300 reads/s) with low latency, but such high-speed reading has rarely been exploited because the reader may not effectively resolve collisions of multiple tags. Therefore, its human–computer interface applications have been typically limited to a discrete, hands-on interaction style using one tag at a time. In this work, we realized fluent, hands-off, and multi-tag tangible interactions by leveraging gravity and anti-collision physical constraints, which support effortless user input and maximize throughput. Furthermore, our system provides hot-swappable interactivity that enables smooth transitions throughout extended use. Based on the design parameters explored through a series of studies, we present a design space with proof-of-concept implementations in various applications. 
 
-## Keywords
+### Keywords
 NFC, Rich-ID, Motion Sensing, Tags, Physical Constraints, Fluent, Tangible Interaction
 
-## Links and Downloadables
+### Links and Downloadables
 - [ACM Digital Library](https://doi.org/10.1145/3411764.3445214) (the link will be available after May 8, 2021)
 - Paper [Pre-print; pdf](assets/chi21_preprint_lowres.pdf)
 - Press Kit (TBA; contact r.liang@tue.nl)
 - Dataset and Source Codes: [Github repository](https://github.com/howieliang/NFCSense)
 - Tutorials (TBA)
 
-## Introduction
+### Introduction
 Near-field communication (NFC) systems have been widely deployed for object identification. Recently, NFC readers have also become integrated into many smartphones and smart devices to enable their users to easily and privately access NFC tag information without using their camera. An NFC reader, known as a high-frequency (HF) radio-frequency-identification (RFID) reader, can reliably recognize the presence of a tag at a high read rate (e.g., ∼ 300 tags/second), which makes NFC useful in industrial applications, such as workflow management.
 
 Human–computer interaction (HCI) researchers have also extensively used NFC or RFID tags for prototyping tangible user interfaces (TUIs) [22] because of their low price and ready availability [31, 34, 45]. However, this high-speed mode in single-tag reading has been rarely exploited in the context of HCI applications. Unlike machines, we as humans cannot operate a tag at such a consistently high speed. We may use multiple tags simultaneously. However, unfortunately, an NFC or HF RFID reader is potentially unable to resolve collisions of multiple tags effectively; alternatively, such readers may require an additional time-domain mechanism, such as dynamic framed slotted ALOHA (DFSA) [10], which results in the reader taking extra time to resolve the tag collisions. Furthermore, the order in which tags appear cannot be guaranteed. These reliability and efficiency concerns potentially hinder the user experience. In general, the HCI application of NFC tags is limited by a discrete, hands-on interaction style where one tag is used at a time.
@@ -55,35 +54,35 @@ __![Figure 6](figures/chi21-174-fig6.png)Figure 6: Measured activation maps and 
 
 __![Figure 7](figures/chi21-174-fig7.png)Figure 7: More NFC tag samples: (a) experimental apparatus. The PVC coating of T0 is removed to show the antenna structure. (b) Measured activation maps and (c) cross sections at y = 0.__
 
-![Figure 8](figures/chi21-174-fig8.png)Figure 8: Form primitives of tokens: (a) z < z*, (b) z > z*, (c) θ > θ*, and (d) 
-dgap>dgap*.
+__![Figure 8](figures/chi21-174-fig8.png)Figure 8: Form primitives of tokens: (a) z < z*, (b) z > z*, (c) θ > θ*, and (d) 
+dgap>dgap*.__
 
-![Figure 9](figures/chi21-174-fig9.png)Figure 9: Activation signal patterns of different primitives: (a) z < z*, (b) z > z*, and (c) θ > θ*, where θ < 90°.
+__![Figure 9](figures/chi21-174-fig9.png)Figure 9: Activation signal patterns of different primitives: (a) z < z*, (b) z > z*, and (c) θ > θ*, where θ < 90°.__
 
-![Figure 10](figures/chi21-174-fig10.png)Figure 10: Form primitives of physical constraints: (a) linear constraint, (b) rotational constraint, and (c) simple harmonic motion (S.H.M.) constraint.
+__![Figure 10](figures/chi21-174-fig10.png)Figure 10: Form primitives of physical constraints: (a) linear constraint, (b) rotational constraint, and (c) simple harmonic motion (S.H.M.) constraint.__
 
-![Figure 11](figures/chi21-174-fig11.png)Figure 11: Workflow for extracting the motion features from rich-ID square waves.
+__![Figure 11](figures/chi21-174-fig11.png)Figure 11: Workflow for extracting the motion features from rich-ID square waves.__
 
-![Figure 12](figures/chi21-174-fig12.png)Figure 12: Features of the implemented example: (a) reader, (b) track, (c) boat, (d) figurine, (e) white spinner, (f) black spinner, (g) swing, (h) car, (i) trolley, and (j) pillar.
+__![Figure 12](figures/chi21-174-fig12.png)Figure 12: Features of the implemented example: (a) reader, (b) track, (c) boat, (d) figurine, (e) white spinner, (f) black spinner, (g) swing, (h) car, (i) trolley, and (j) pillar.__
 
-![Figure 13](figures/chi21-174-fig13.png)Figure 13: Sensing the frequency of different types of motion: (a) rotation frequency of the black spinner, (b-c) rotation frequency and direction of the white spinner, and (d) frequency of simple harmonic motion of the swing.
+__![Figure 13](figures/chi21-174-fig13.png)Figure 13: Sensing the frequency of different types of motion: (a) rotation frequency of the black spinner, (b-c) rotation frequency and direction of the white spinner, and (d) frequency of simple harmonic motion of the swing.__
 
-![Figure 14](figures/chi21-174-fig14.png)Figure 14: Sensing the speed of NFC-tagged objects: (a) a boat moved by a hand, (b) a boat released from the top of a track, and (c) a trolley manipulated by two hands holding the track.
+__![Figure 14](figures/chi21-174-fig14.png)Figure 14: Sensing the speed of NFC-tagged objects: (a) a boat moved by a hand, (b) a boat released from the top of a track, and (c) a trolley manipulated by two hands holding the track.__
 
-![Figure 15](figures/chi21-174-fig15.png)Figure 15: Additional input modes based on various signal patterns for different types of motion: (a) user walking the figurine along the track, (b) user jumping the figurine over the reader, (c) user moving the car forward along the track, and (d) user moving the car backward along the track.
+__![Figure 15](figures/chi21-174-fig15.png)Figure 15: Additional input modes based on various signal patterns for different types of motion: (a) user walking the figurine along the track, (b) user jumping the figurine over the reader, (c) user moving the car forward along the track, and (d) user moving the car backward along the track.__
 
-![Figure 16](figures/chi21-174-fig16.png)Figure 16: (a) Multiplexer recognizes the input sources through differences in signal pattern or speed. (b) Sorter allows the user to construct semantic objects by assembling the NFC-tagged building blocks into a 1D array to get the tag read in a single release.
+__![Figure 16](figures/chi21-174-fig16.png)Figure 16: (a) Multiplexer recognizes the input sources through differences in signal pattern or speed. (b) Sorter allows the user to construct semantic objects by assembling the NFC-tagged building blocks into a 1D array to get the tag read in a single release.__
 
-![Figure 17](figures/chi21-174-fig17.png)Figure 17: (a) Funnel eases the tag placement of a few tags. (b-d) Modulator modulates the tag positions to enable batch operations. The user throws a handful of NFC tags into the container and rolls the plate using the other hand to hold the handle behind. The position of each tag gets modulated before it is read.
+__![Figure 17](figures/chi21-174-fig17.png)Figure 17: (a) Funnel eases the tag placement of a few tags. (b-d) Modulator modulates the tag positions to enable batch operations. The user throws a handful of NFC tags into the container and rolls the plate using the other hand to hold the handle behind. The position of each tag gets modulated before it is read.__
 
-![Figure 18](figures/chi21-174-fig18.png)Figure 18: Finger-worn antenna that allows for always-available input once worn: (a) implementation; (b) recognizing the fidget spinner and its movements without requiring the user to approach a reader antenna; (c) allowing embodied interactions, such as blowing on the wing to speed it up.
+__![Figure 18](figures/chi21-174-fig18.png)Figure 18: Finger-worn antenna that allows for always-available input once worn: (a) implementation; (b) recognizing the fidget spinner and its movements without requiring the user to approach a reader antenna; (c) allowing embodied interactions, such as blowing on the wing to speed it up.__
 
-![Figure 19](figures/chi21-174-fig19.png)Figure 19: Customized antenna array for capturing the speed of a tag-embedded marble: (a) implementation of 1 × 3 two-turn antenna array and a tag-embedded marble; (b–c) marble movement being captured when the tag is tilted 90°; cases can be distinguished by the number of pulses.
+__![Figure 19](figures/chi21-174-fig19.png)Figure 19: Customized antenna array for capturing the speed of a tag-embedded marble: (a) implementation of 1 × 3 two-turn antenna array and a tag-embedded marble; (b–c) marble movement being captured when the tag is tilted 90°; cases can be distinguished by the number of pulses.__
 
-## Acknowledgement
+### Acknowledgement
 We sincerely acknowledge Associate Chairs and the anonymous reviewers for the helpful comments. The first author would like to thank his wife and kids for supporting most of the fabrication and experiments to be completed at home. 
 
-## Cite this Work
+### Cite this Work
 ```
 @InProceedings{liang2021nfcsense,
 author = {Liang, Rong-Hao and Guo, Zengrong},
