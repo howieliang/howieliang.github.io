@@ -20,10 +20,10 @@ NFC, Rich-ID, Motion Sensing, Tags, Physical Constraints, Fluent, Tangible Inter
 
 ### Links and Downloadables
 - [ACM Digital Library](https://doi.org/10.1145/3411764.3445214) (the link will be available after May 8, 2021)
-- Paper [Pre-print; pdf](assets/chi21_preprint_lowres.pdf)
-- Press Kit (TBA; contact r.liang@tue.nl)
+- Paper: [(Pre-print; pdf)](assets/chi21_preprint_lowres.pdf)
+- Press Kit: (TBA; contact r.liang@tue.nl)
 - Dataset and Source Codes: [Github repository](https://github.com/howieliang/NFCSense)
-- Tutorials (TBA)
+- Tutorials: (TBA)
 
 ### Introduction
 Near-field communication (NFC) systems have been widely deployed for object identification. Recently, NFC readers have also become integrated into many smartphones and smart devices to enable their users to easily and privately access NFC tag information without using their camera. An NFC reader, known as a high-frequency (HF) radio-frequency-identification (RFID) reader, can reliably recognize the presence of a tag at a high read rate (e.g., ∼ 300 tags/second), which makes NFC useful in industrial applications, such as workflow management.
@@ -80,7 +80,7 @@ __![Figure 18](figures/chi21-174-fig18.png)Figure 18: Finger-worn antenna that a
 __![Figure 19](figures/chi21-174-fig19.png)Figure 19: Customized antenna array for capturing the speed of a tag-embedded marble: (a) implementation of 1 × 3 two-turn antenna array and a tag-embedded marble; (b–c) marble movement being captured when the tag is tilted 90°; cases can be distinguished by the number of pulses.__
 
 ### Acknowledgement
-We sincerely acknowledge Associate Chairs and the anonymous reviewers for the helpful comments. The first author would like to thank his wife and kids for supporting most of the fabrication and experiments to be completed at home. 
+The first author would like to thank his wife and kids for supporting most of the fabrication and experiments to be completed at home. 
 
 ### Cite this Work
 ```
