@@ -29,7 +29,7 @@ Simply adding an active touchscreen module to the surface of each rich-ID block 
 
 In this paper, we took a research-through-design [52] approach to investigating a plausible design for touchscreen integration using passive rich-ID building blocks. We realized two conceptual systems (Figure 1) to embody touchscreen interactions on passive rich-ID building blocks, either as constructive assemblies or as a stackable touchscreen, through prototyping two proof-of-concept systems, RFIPillars and RFITiles. With deliberate technical designs using rear-projection and RFID-capacitive sensor fusion techniques, we enabled a seamless and fluent transition between touch and tangible interactions without adding power electronics to each block. We constructed fantasy applications upon these prototypes to demonstrate the interaction styles.
 
-___1.1 Constructive Assemblies: RFIPillars ___
+___1.1 Constructive Assemblies: RFIPillars___
 
 The first system, RFIPillars (Figure 2), comprises cubes and stations. A cube is a passive rich-ID building block augmented by a rear-projection screen with an overlain transparent capacitive electrode matrix; a station is an active unit in which a pico projector and a signal processing unit are embedded. Through the lens and mirrors built into the cubes, each station projects a dynamic visual display for each cube stacked upon the station and processes the touch input events from the cubes to enable touchscreen interactions.
 
@@ -49,7 +49,7 @@ __![Figure 4](figures/4.png)Figure 4: In Tangible Room Escape, users solve a puz
 
 These examples demonstrate seamless transition between the modes of touchscreen and semantic stacking interaction. The users use rich-ID building blocks to define the context and perform fine-grained touch inputs on the focus. The building blocks afford semantic constructions that make screen expansion meaningful. The rear-projection and capacitive touch sensing support occlusion-free touchscreen interactions.
 
-___1.2 Stackable Touchscreen: RFITiles ___
+___1.2 Stackable Touchscreen: RFITiles___
 
 The second system, RFITiles (Figure 5), is an improvement of the previous RFIDesk [14] system that is aimed at reducing the visual parallax problem and providing higher-resolution touch interaction. The RFITiles system comprises cards and tiles. Each card is a thin-form passive rich-ID building block augmented by an overlain transparent capacitive electrode matrix. Tiles are tiled on a rear-projection surface and connected to a signal processing unit. The rear-projection interactive surface provides a dynamic visual display for each card and tile stacked upon it, and the system processes the touch input events from the capacitive electrode matrix to enable touchscreen interactions through the cards and tiles.
 
@@ -63,7 +63,7 @@ _Rich Touch Interactions through the Stack._ Input methods may vary between inpu
 
 __![Figure 7](figures/7.png)Figure 7: In Tangible Programming applied to a cooking task, the user performs various touch input methods after building the context by stacking rich-ID cards.__
 
-___1.3 Summary and Contributions ___
+___1.3 Summary and Contributions___
 Stack inputs are discrete and effortful after an extended period of use, especially with graspable objects such as RFIBricks [15]. Therefore, leveraging GUI and touchscreen inputs on the surface of stackables can increase the fluidity and expressivity of interactions. Rich-ID blocks do not require further GUI configurations on the user side because every unit is unique. The bindings can be preprogrammed; thus, they are perfectly suitable for building the background context of foreground touchscreen interactions. To fully leverage the scalability of rich-ID systems, we made these blocks passive, maintenance-free, and as calm as Lego bricks for ubiquitous computing environments [44].
 
 The main contribution of this paper is two-fold. 1) The realization of a novel interaction system that supports a smooth transition between touchscreen and semantic stacking interactions. Users of this system can construct the touchscreen interaction context using rich-ID building blocks and then interact with the focused content through rich and efficient touch interactions in a post-WIMP interaction scheme [19]. 2) The knowledge created in the process and the results of building these research artifacts help the HCI community better understand the solution space of reconfigurable touchscreen designs. We disclose the practical limitations of this passive approach through a series of technical evaluations, which also inform directions for future development. We further reflect on our assumptions by comparing our rear-projection approach with the electronic one, thereby providing a relatively nuanced design prescription for deployment scales.
