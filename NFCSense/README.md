@@ -26,7 +26,7 @@ NFC, Rich-ID, Motion Sensing, Tags, Physical Constraints, Fluent, Tangible Inter
 - Tutorials: (TBA)
 
 ### Introduction
-Near-field communication (NFC) systems have been widely deployed for object identification. Recently, NFC readers have also become integrated into many smartphones and smart devices to enable their users to easily and privately access NFC tag information without using their camera. An NFC reader, known as a high-frequency (HF) radio-frequency-identification (RFID) reader, can reliably recognize the presence of a tag at a high read rate (e.g., ∼ 300 tags/second), which makes NFC useful in industrial applications, such as workflow management.
+Near-field communication (NFC) systems have been widely deployed for object identification. Recently, NFC readers have also become integrated into many smartphones and smart devices to enable their users to easily and privately access NFC tag information without using their camera. An NFC reader, known as a high-frequency (HF) radio-frequency-identification (RFID) reader, can reliably recognize the presence of a tag at a high read rate (e.g., ∼300 tags/second), which makes NFC useful in industrial applications, such as workflow management.
 
 Human–computer interaction (HCI) researchers have also extensively used NFC or RFID tags for prototyping tangible user interfaces (TUIs) [22] because of their low price and ready availability [31, 34, 45]. However, this high-speed mode in single-tag reading has been rarely exploited in the context of HCI applications. Unlike machines, we as humans cannot operate a tag at such a consistently high speed. We may use multiple tags simultaneously. However, unfortunately, an NFC or HF RFID reader is potentially unable to resolve collisions of multiple tags effectively; alternatively, such readers may require an additional time-domain mechanism, such as dynamic framed slotted ALOHA (DFSA) [10], which results in the reader taking extra time to resolve the tag collisions. Furthermore, the order in which tags appear cannot be guaranteed. These reliability and efficiency concerns potentially hinder the user experience. In general, the HCI application of NFC tags is limited by a discrete, hands-on interaction style where one tag is used at a time.
 
@@ -46,18 +46,18 @@ __![Figure 2](figures/chi21-174-fig2.png)Figure 2: NFC system: (a) overview and 
 
 __![Figure 3](figures/chi21-174-fig3.png)Figure 3: Feasibility study: (a) experimental apparatus; (b) NFC tag read duration slightly increases when a tag is detected, but the read duration is less than 3.2 ms; (c) at 300 Hz, the NFC reader achieved comparable performance with a Hall sensor, although further investigation is required regarding the activation threshold.__
 
-__![Figure 4](figures/chi21-174-fig4.png)Figure 4: Measurement of the activation map of a non-tilted tag: (a) experiment apparatus; (b) activation map of a non-tilted tag; (c) completed activation map derived from the measured quadrant; (d) cross section at y = 0mm shows that z* = 6mm; (e) cross sections at z = [7, 12, 17, 22, 27, 32]mm > z*; (f) cross section at z = 4mm < z*.__
+__![Figure 4](figures/chi21-174-fig4.png)Figure 4: Measurement of the activation map of a non-tilted tag: (a) experiment apparatus; (b) activation map of a non-tilted tag; (c) completed activation map derived from the measured quadrant; (d) cross section at y = 0mm shows that z\* = 6mm; (e) cross sections at z = [7, 12, 17, 22, 27, 32]mm > z\*; (f) cross section at z = 4mm < z*.__
 
-__![Figure 5](figures/chi21-174-fig5.png)Figure 5: An NFC tag that could be fixed at various angles of tilt: (a) experimental apparatus and model; (b) measured activation maps and cross-sections at y = 0, which shows θ* = 30°.__
+__![Figure 5](figures/chi21-174-fig5.png)Figure 5: An NFC tag that could be fixed at various angles of tilt: (a) experimental apparatus and model; (b) measured activation maps and cross-sections at y = 0, which shows θ\* = 30°.__
 
 __![Figure 6](figures/chi21-174-fig6.png)Figure 6: Measured activation maps and cross sections at y = 0 of a pair of separated tags at various distances, showing the effects of dgap.__
 
 __![Figure 7](figures/chi21-174-fig7.png)Figure 7: More NFC tag samples: (a) experimental apparatus. The PVC coating of T0 is removed to show the antenna structure. (b) Measured activation maps and (c) cross sections at y = 0.__
 
-__![Figure 8](figures/chi21-174-fig8.png)Figure 8: Form primitives of tokens: (a) z < z*, (b) z > z*, (c) θ > θ*, and (d) 
-dgap>dgap*.__
+__![Figure 8](figures/chi21-174-fig8.png)Figure 8: Form primitives of tokens: (a) z < z\*, (b) z > z\*, (c) θ > θ\*, and (d) 
+dgap>dgap\*.__
 
-__![Figure 9](figures/chi21-174-fig9.png)Figure 9: Activation signal patterns of different primitives: (a) z < z*, (b) z > z*, and (c) θ > θ*, where θ < 90°.__
+__![Figure 9](figures/chi21-174-fig9.png)Figure 9: Activation signal patterns of different primitives: (a) z < z\*, (b) z > z\*, and (c) θ > θ\*, where θ < 90°.__
 
 __![Figure 10](figures/chi21-174-fig10.png)Figure 10: Form primitives of physical constraints: (a) linear constraint, (b) rotational constraint, and (c) simple harmonic motion (S.H.M.) constraint.__
 
