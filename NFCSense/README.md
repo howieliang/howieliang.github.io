@@ -21,6 +21,7 @@ NFC, Rich-ID, Motion Sensing, Tags, Physical Constraints, Fluent, Tangible Inter
 ### Links and Downloadables
 - [ACM Digital Library](https://doi.org/10.1145/3411764.3445214) (the link will be available after May 8, 2021)
 - Paper: [(Pre-print; pdf)](assets/chi21_preprint_lowres.pdf)
+- Cheatsheet (One-page Summary): [pdf](assets/NFCSenseCheatSheet_v1.pdf)
 - Press Kit: (TBA; contact r.liang@tue.nl)
 - Dataset and Source Codes: [Github repository](https://github.com/howieliang/NFCSense)
 - Tutorials: (TBA)
