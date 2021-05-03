@@ -26,7 +26,8 @@ NFC, Rich-ID, Motion Sensing, Tags, Physical Constraints, Fluent, Tangible Inter
 - Tutorials: (TBA)
 
 ### Cheatsheet (One-page Summary)
-[![NFCSense Cheatsheet V1](figures/NFCSenseCheatSheet_v1.png)](assets/NFCSenseCheatSheet_v1.pdf)
+[![NFCSense Cheatsheet V1](figures/NFCSenseCheatSheet_v1.png)](figures/NFCSenseCheatSheet_v1.png)
+- Download:[pdf](aassets/NFCSenseCheatSheet_v1.pdf)
 
 ### Introduction
 Near-field communication (NFC) systems have been widely deployed for object identification. Recently, NFC readers have also become integrated into many smartphones and smart devices to enable their users to easily and privately access NFC tag information without using their camera. An NFC reader, known as a high-frequency (HF) radio-frequency-identification (RFID) reader, can reliably recognize the presence of a tag at a high read rate (e.g., ∼300 tags/second), which makes NFC useful in industrial applications, such as workflow management.
