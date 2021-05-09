@@ -4,16 +4,20 @@ ___ACM CHI '21: CHI Conference on Human Factors in Computing Systems, Yokohama, 
 __Rong-Hao Liang, Zengrong Guo__
 _TU Eindhoven_
 
+### Abstract
+This paper presents _NFCSense_, a data-defined rich-ID motion sensing technique for fluent tangible interaction design by using commodity near-field communication (NFC) tags and a single NFC tag reader. An NFC reader can reliably recognize the presence of an NFC tag at a high read rate (\~300 reads/s) with low latency, but such high-speed reading has rarely been exploited because the reader may not effectively resolve collisions of multiple tags. Therefore, its human–computer interface applications have been typically limited to a discrete, hands-on interaction style using one tag at a time. In this work, we realized fluent, hands-off, and multi-tag tangible interactions by leveraging gravity and anti-collision physical constraints, which support effortless user input and maximize throughput. Furthermore, our system provides hot-swappable interactivity that enables smooth transitions throughout extended use. Based on the design parameters explored through a series of studies, we present a design space with proof-of-concept implementations in various applications. 
+
 ### Full Video
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/8eCY8QbDzgg/0.jpg)](https://www.youtube.com/watch?v=8eCY8QbDzgg)
 
-### Demo
+### Cheatsheet (One-page Summary)
+[![NFCSense Cheatsheet V1](figures/NFCSenseCheatSheet_v1.png)](figures/NFCSenseCheatSheet_v1.png)
+- Download:[pdf](aassets/NFCSenseCheatSheet_v1.pdf)
+
+### Extra Demo
 - Running an Unmodified RC522 NFC Reader at 300Hz with Arduino Uno [Source Code: Github](https://github.com/howieliang/NFCSense)
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/tl8EKAQNlNc/0.jpg)](https://www.youtube.com/watch?v=tl8EKAQNlNc)
-
-### Abstract
-This paper presents _NFCSense_, a data-defined rich-ID motion sensing technique for fluent tangible interaction design by using commodity near-field communication (NFC) tags and a single NFC tag reader. An NFC reader can reliably recognize the presence of an NFC tag at a high read rate (\~300 reads/s) with low latency, but such high-speed reading has rarely been exploited because the reader may not effectively resolve collisions of multiple tags. Therefore, its human–computer interface applications have been typically limited to a discrete, hands-on interaction style using one tag at a time. In this work, we realized fluent, hands-off, and multi-tag tangible interactions by leveraging gravity and anti-collision physical constraints, which support effortless user input and maximize throughput. Furthermore, our system provides hot-swappable interactivity that enables smooth transitions throughout extended use. Based on the design parameters explored through a series of studies, we present a design space with proof-of-concept implementations in various applications. 
 
 ### Keywords
 NFC, Rich-ID, Motion Sensing, Tags, Physical Constraints, Fluent, Tangible Interaction
@@ -23,11 +27,9 @@ NFC, Rich-ID, Motion Sensing, Tags, Physical Constraints, Fluent, Tangible Inter
 - Paper: [(Pre-print; pdf)](assets/chi21_preprint_lowres.pdf)
 - Press Kit: (TBA; contact r.liang@tue.nl)
 - Dataset and Source Codes: [Github repository](https://github.com/howieliang/NFCSense)
-- Tutorials: (TBA)
+- Open NFCSense Library! (Coming soon)
 
-### Cheatsheet (One-page Summary)
-[![NFCSense Cheatsheet V1](figures/NFCSenseCheatSheet_v1.png)](figures/NFCSenseCheatSheet_v1.png)
-- Download:[pdf](aassets/NFCSenseCheatSheet_v1.pdf)
+### [Check More Rich-ID Interactivity Projects](https://rich-id-interactivity.page)
 
 ### Introduction
 Near-field communication (NFC) systems have been widely deployed for object identification. Recently, NFC readers have also become integrated into many smartphones and smart devices to enable their users to easily and privately access NFC tag information without using their camera. An NFC reader, known as a high-frequency (HF) radio-frequency-identification (RFID) reader, can reliably recognize the presence of a tag at a high read rate (e.g., ∼300 tags/second), which makes NFC useful in industrial applications, such as workflow management.

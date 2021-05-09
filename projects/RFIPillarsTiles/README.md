@@ -18,6 +18,8 @@ RFID; Stackable; Touchscreen; Rich-ID; Building Blocks, Capacitive Sensing, Rear
 - [ACM Digital Library](https://doi.org/10.1145/3411764.3445722) (the link will be available after May 8, 2021)
 - Paper: [(Pre-print; pdf)](assets/chi21b_preprint.pdf)
 
+### [Check More Rich-ID Interactivity Projects](https://rich-id-interactivity.page)
+
 ### Introduction
 Passive rich-ID building blocks [15], based on ultrahigh-frequency radio-frequency identification (UHF RFID) sensing, were recently proposed to support the interactive semantic construction of digital information. These rich-ID building blocks support wireless geometry resolution by leveraging a paired magnetic contact switch mechanism, which ensures a reliable low-ohmic connection and physical alignments between the modified RFID tags such that the (un)stacking events can be resolved from the concurrent presence or absence of two tags. Thanks to the batteryless and wireless UHF RFID tags, these rich-ID building blocks provide virtually unlimited IDs without a battery or microcontroller, making deployment and maintenance easier than for active building blocks when at scale.
 
