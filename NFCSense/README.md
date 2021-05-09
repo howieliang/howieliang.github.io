@@ -7,6 +7,8 @@ _TU Eindhoven_
 ### Abstract
 This paper presents _NFCSense_, a data-defined rich-ID motion sensing technique for fluent tangible interaction design by using commodity near-field communication (NFC) tags and a single NFC tag reader. An NFC reader can reliably recognize the presence of an NFC tag at a high read rate (\~300 reads/s) with low latency, but such high-speed reading has rarely been exploited because the reader may not effectively resolve collisions of multiple tags. Therefore, its human–computer interface applications have been typically limited to a discrete, hands-on interaction style using one tag at a time. In this work, we realized fluent, hands-off, and multi-tag tangible interactions by leveraging gravity and anti-collision physical constraints, which support effortless user input and maximize throughput. Furthermore, our system provides hot-swappable interactivity that enables smooth transitions throughout extended use. Based on the design parameters explored through a series of studies, we present a design space with proof-of-concept implementations in various applications. 
 
+### The *OpenNFCSense API* is now available at [Github](https://github.com/howieliang/OpenNFCSense). Check it out!
+
 ### Full Video
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/8eCY8QbDzgg/0.jpg)](https://www.youtube.com/watch?v=8eCY8QbDzgg)
 
@@ -16,7 +18,6 @@ This paper presents _NFCSense_, a data-defined rich-ID motion sensing technique 
 
 ### Extra Demo
 - Running an Unmodified RC522 NFC Reader at 300Hz with Arduino Uno [Source Code: Github](https://github.com/howieliang/NFCSense)
-
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/tl8EKAQNlNc/0.jpg)](https://www.youtube.com/watch?v=tl8EKAQNlNc)
 
 ### Links and Downloadables
@@ -24,7 +25,7 @@ This paper presents _NFCSense_, a data-defined rich-ID motion sensing technique 
 - Paper: [(Pre-print; pdf)](assets/chi21_preprint_lowres.pdf)
 - Press Kit: (TBA; contact r.liang@tue.nl)
 - Dataset and Source Codes: [Github repository](https://github.com/howieliang/NFCSense)
-- Open NFCSense Library! (Coming soon)
+- __OpenNFCSense__ Library [Github](https://github.com/howieliang/OpenNFCSense)
 
 ### Keywords
 NFC, Rich-ID, Motion Sensing, Tags, Physical Constraints, Fluent, Tangible Interaction
@@ -86,22 +87,30 @@ __![Figure 18](figures/chi21-174-fig18.png)Figure 18: Finger-worn antenna that a
 __![Figure 19](figures/chi21-174-fig19.png)Figure 19: Customized antenna array for capturing the speed of a tag-embedded marble: (a) implementation of 1 × 3 two-turn antenna array and a tag-embedded marble; (b–c) marble movement being captured when the tag is tilted 90°; cases can be distinguished by the number of pulses.__
 
 ### Acknowledgement
-The first author would like to thank his wife and kids for supporting most of the fabrication and experiments to be completed at home. 
+We sincerely acknowledge Associate Chairs and the anonymous reviewers for the helpful comments. __The first author would like to thank his wife and kids for supporting most of the fabrication and experiments to be completed at home.__
 
 ### Cite this Work
+- ACM format:
 ```
-@InProceedings{liang2021nfcsense,
+Rong-Hao Liang and Zengrong Guo. 2021. NFCSense: Data-Defined Rich-ID Motion Sensing for Fluent Tangible Interaction Using a Commodity NFC Reader. In <i>Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems</i> (<i>CHI '21</i>). Association for Computing Machinery, New York, NY, USA, Article 505, 1–14. DOI:https://doi.org/10.1145/3411764.3445214
+```
+- bibtex format:
+```
+@inproceedings{10.1145/3411764.3445214,
 author = {Liang, Rong-Hao and Guo, Zengrong},
 title = {NFCSense: Data-Defined Rich-ID Motion Sensing for Fluent Tangible Interaction Using a Commodity NFC Reader},
-booktitle = {Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems},
-location = {Yokohama, Japan},
+year = {2021},
+isbn = {9781450380966},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
 url = {https://doi.org/10.1145/3411764.3445214},
-articleno = {Paper 174},
+doi = {10.1145/3411764.3445214},
+abstract = { This paper presents NFCSense, a data-defined rich-ID motion sensing technique for fluent tangible interaction design by using commodity near-field communication (NFC) tags and a single NFC tag reader. An NFC reader can reliably recognize the presence of an NFC tag at a high read rate (∼ 300 reads/s) with low latency, but such high-speed reading has rarely been exploited because the reader may not effectively resolve collisions of multiple tags. Therefore, its human–computer interface applications have been typically limited to a discrete, hands-on interaction style using one tag at a time. In this work, we realized fluent, hands-off, and multi-tag tangible interactions by leveraging gravity and anti-collision physical constraints, which support effortless user input and maximize throughput. Furthermore, our system provides hot-swappable interactivity that enables smooth transitions throughout extended use. Based on the design parameters explored through a series of studies, we present a design space with proof-of-concept implementations in various applications. },
+booktitle = {Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems},
+articleno = {505},
 numpages = {14},
-year = {2021},
-month = {May},
-publisher = {ACM},
+keywords = {Tags, Rich-ID, Motion Sensing, Fluent, Tangible Interaction, Physical Constraints, NFC},
+location = {Yokohama, Japan},
+series = {CHI '21}
 }
 ```
