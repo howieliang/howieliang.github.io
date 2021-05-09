@@ -5,18 +5,18 @@ __Chin-Yuan Lu<sup>\*1</sup>, Han-Wei Hsieh<sup>\*1</sup>, Rong-Hao Liang<sup>\*
 
 _National Taiwan University<sup>1</sup>, TU Eindhoven<sup>2</sup>_
 
-### Video
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5IQ4UVGz1zk/0.jpg)](https://www.youtube.com/watch?v=5IQ4UVGz1zk)
-
 ### Abstract
 This research investigates the design space of combining touchscreens with passive rich-ID building block systems to support the physical construction of contexts in touchscreen interactions. With two proof-of-concept systems, RFIPillars and RFITiles, we explore various schemes for using tangible inputs for context enrichment in touchscreen interactions. Instead of incorporating an electronic touchscreen module that requires per-module maintenance, this work intentionally makes each tangible object passive. We explore rear-projection solutions to integrate touchscreen interactions into these passive building blocks with capacitive touch sensing techniques and deliberate physical forgiving to retain the merits of being both batteryless and wireless. The presented research artifacts embody the interaction designs and elucidate scalability challenges in integrating touchscreen interactions into this emerging tangible user interface.
 
-### Keywords
-RFID; Stackable; Touchscreen; Rich-ID; Building Blocks, Capacitive Sensing, Rear-Projection, Modular Interface, Tangible User Interface
+### Video
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5IQ4UVGz1zk/0.jpg)](https://www.youtube.com/watch?v=5IQ4UVGz1zk)
 
 ### Links and Downloadables
 - [ACM Digital Library](https://doi.org/10.1145/3411764.3445722) (the link will be available after May 8, 2021)
 - Paper: [(Pre-print; pdf)](assets/chi21b_preprint.pdf)
+
+### Keywords
+RFID; Stackable; Touchscreen; Rich-ID; Building Blocks, Capacitive Sensing, Rear-Projection, Modular Interface, Tangible User Interface
 
 ### [Check More Rich-ID Interactivity Projects](https://rich-id-interactivity.page)
 

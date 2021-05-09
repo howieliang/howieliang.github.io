@@ -19,15 +19,15 @@ This paper presents _NFCSense_, a data-defined rich-ID motion sensing technique 
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/tl8EKAQNlNc/0.jpg)](https://www.youtube.com/watch?v=tl8EKAQNlNc)
 
-### Keywords
-NFC, Rich-ID, Motion Sensing, Tags, Physical Constraints, Fluent, Tangible Interaction
-
 ### Links and Downloadables
 - [ACM Digital Library](https://doi.org/10.1145/3411764.3445214) (the link will be available after May 8, 2021)
 - Paper: [(Pre-print; pdf)](assets/chi21_preprint_lowres.pdf)
 - Press Kit: (TBA; contact r.liang@tue.nl)
 - Dataset and Source Codes: [Github repository](https://github.com/howieliang/NFCSense)
 - Open NFCSense Library! (Coming soon)
+
+### Keywords
+NFC, Rich-ID, Motion Sensing, Tags, Physical Constraints, Fluent, Tangible Interaction
 
 ### [Check More Rich-ID Interactivity Projects](https://rich-id-interactivity.page)
 
