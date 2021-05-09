@@ -12,13 +12,16 @@ This paper presents _NFCSense_, a data-defined rich-ID motion sensing technique 
 ### Full Video
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/8eCY8QbDzgg/0.jpg)](https://www.youtube.com/watch?v=8eCY8QbDzgg)
 
+### Technical Demo Playlist
+[![IMAGE ALT TEXT HERE](assets/playlist.png)](https://www.youtube.com/playlist?list=PLSgbdfV4TB2c00iVELVLYMvrNBn_j-x15)
+
 ### Cheatsheet (One-page Summary)
 [![NFCSense Cheatsheet V1](figures/NFCSenseCheatSheet_v1.png)](figures/NFCSenseCheatSheet_v1.png)
 - Download:[pdf](aassets/NFCSenseCheatSheet_v1.pdf)
 
-### Extra Demo
+<!-- ### Extra Demo
 - Running an Unmodified RC522 NFC Reader at 300Hz with Arduino Uno [Source Code: Github](https://github.com/howieliang/NFCSense)
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/tl8EKAQNlNc/0.jpg)](https://www.youtube.com/watch?v=tl8EKAQNlNc)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/tl8EKAQNlNc/0.jpg)](https://www.youtube.com/watch?v=tl8EKAQNlNc) -->
 
 ### Links and Downloadables
 - [ACM Digital Library](https://doi.org/10.1145/3411764.3445214) (the link will be available after May 8, 2021)
