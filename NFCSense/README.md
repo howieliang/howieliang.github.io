@@ -7,7 +7,9 @@ _TU Eindhoven_
 ### Abstract
 This paper presents _NFCSense_, a data-defined rich-ID motion sensing technique for fluent tangible interaction design by using commodity near-field communication (NFC) tags and a single NFC tag reader. An NFC reader can reliably recognize the presence of an NFC tag at a high read rate (\~300 reads/s) with low latency, but such high-speed reading has rarely been exploited because the reader may not effectively resolve collisions of multiple tags. Therefore, its human–computer interface applications have been typically limited to a discrete, hands-on interaction style using one tag at a time. In this work, we realized fluent, hands-off, and multi-tag tangible interactions by leveraging gravity and anti-collision physical constraints, which support effortless user input and maximize throughput. Furthermore, our system provides hot-swappable interactivity that enables smooth transitions throughout extended use. Based on the design parameters explored through a series of studies, we present a design space with proof-of-concept implementations in various applications. 
 
-### The *OpenNFCSense API* is now available at [Github](https://github.com/howieliang/OpenNFCSense). Check it out!
+### The *OpenNFCSense API* is now available at [Github](https://github.com/howieliang/OpenNFCSense)!
+
+### The *Video Tutorials* of OpenNFCSense is now available at [Youtube](https://youtube.com/playlist?list=PLSgbdfV4TB2f16s4GMy_-1ZMu_zGP9QIH)! Will be updated irregularly. Subscribe the Youtube Channel to follow the latest one.
 
 ### Full Video (4m30s)
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/8eCY8QbDzgg/0.jpg)](https://www.youtube.com/watch?v=8eCY8QbDzgg)
@@ -27,6 +29,10 @@ This paper presents _NFCSense_, a data-defined rich-ID motion sensing technique 
 - Press Kit: (TBA; contact r.liang@tue.nl)
 - Dataset and Source Codes: [Github repository](https://github.com/howieliang/NFCSense)
 - __OpenNFCSense__ Library [Github](https://github.com/howieliang/OpenNFCSense)
+
+### Featured Articles or Posts
+- Official Arduino Blog: [NFCSense can detect the movement of objects using only NFC tags](https://blog.arduino.cc/2021/05/11/nfcsense-can-detect-the-movement-of-objects-using-only-nfc-tags/)
+- Hackster.io: [https://www.hackster.io/news/replace-your-hall-effect-sensors-with-nfc-to-collect-better-data-2e42dc4cf61a](https://www.hackster.io/news/replace-your-hall-effect-sensors-with-nfc-to-collect-better-data-2e42dc4cf61a)
 
 ### Keywords
 NFC, Rich-ID, Motion Sensing, Tags, Physical Constraints, Fluent, Tangible Interaction
