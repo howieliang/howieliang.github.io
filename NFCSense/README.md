@@ -9,7 +9,8 @@ This paper presents _NFCSense_, a data-defined rich-ID motion sensing technique 
 
 ### The *OpenNFCSense API* is now available at [Github](https://github.com/howieliang/OpenNFCSense)!
 
-### The *Video Tutorials* of OpenNFCSense is now available at [Youtube][![IMAGE ALT TEXT HERE](figures/playlist.png)](https://youtube.com/playlist?list=PLSgbdfV4TB2f16s4GMy_-1ZMu_zGP9QIH)! Will be updated irregularly. Subscribe the Youtube Channel to follow the latest one.
+### The *Video Tutorials* of OpenNFCSense is now available at [Youtube](https://youtube.com/playlist?list=PLSgbdfV4TB2f16s4GMy_-1ZMu_zGP9QIH)! Will be updated irregularly. Subscribe the Youtube Channel to follow the latest one.
+[![IMAGE ALT TEXT HERE](figures/playlist.png)](https://youtube.com/playlist?list=PLSgbdfV4TB2f16s4GMy_-1ZMu_zGP9QIH)
 
 ### Full Video (4m30s)
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/8eCY8QbDzgg/0.jpg)](https://www.youtube.com/watch?v=8eCY8QbDzgg)
